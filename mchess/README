@@ -14,7 +14,7 @@ Configuration:
 
 Script: 
 
-  sh mches_complete_proof.sh mches-formulas/mc[n].cnf
+  sh mches_complete_proof.sh mchess-formulas/mc[n].cnf
 
 1. Run PReLearn with the above configuration.
 2. Append unit clauses to the formula and delete binary clauses from the proof.

@@ -18,12 +18,12 @@ selected-formulas: some formulas solved exclusively with or exclusively
 without PReLearn with options (--pre_iterations=50) and 100s preprocessing.
 SAT solver used to solve formulas with PR clauses was Kissat.
 
-To solve and verify UNSAT proof for a formula:
+To solve and verify refutation proof for a formula:
 
   timeout 100s ./../PReLearn/sadical [formula] --pre_iterations=50
   cat [formula] pr_clauses.cnf > formula_with_PR.cnf
   ./kissat formula_with_PR.cnf proof --relaxed --no-binary
-  cat pr_clauses_full.pr proof > complete_proof.pr
+  cat pr_clauses_full.dpr proof > complete_proof.pr
   ./dpr-trim [formula] complete_proof.pr
 
 Note (--relaxed) for running kissat since catting the pr clauses would

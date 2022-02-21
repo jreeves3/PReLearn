@@ -73,12 +73,12 @@ To solve and verify a complete refutation proof use
 
   timeout 100s ./sadical [--pre_<options>] formula
   cat formula pr_clauses.cnf > formula_with_PR.cnf
-  ./kissat formula_with_PR.cnf proof --relaxed 
-  cat pr_clauses_full.pr proof > complete_proof.pr
+  ./kissat formula_with_PR.cnf proof --relaxed --no-binary
+  cat pr_clauses_full.dpr proof > complete_proof.pr
   ./dpr-trim formula complete_proof.pr
 
 
 To verify PReLearn proof is a correct derivation use
   
   timeout 100s ./sadical [--pre_<options>] formula
-  ./dpr-trim formula pr_clauses_full.pr -f
+  ./dpr-trim formula pr_clauses_full.dpr -f
