@@ -1,0 +1,113 @@
+0.00/0.00	1
+4.89/4.98	c SaDiCaL SAT Solver
+4.89/4.98	c Copyright (C) 2018 by Armin Biere JKU
+4.89/4.98	c
+4.89/4.98	c Version 00n 
+4.89/4.98	c Compiler gcc (GCC) 7.3.1 20180303 (Red Hat 7.3.1-5)
+4.89/4.98	c Options gcc -Wall -O3 -DNDEBUG -DNLOG
+4.89/4.98	c
+4.89/4.98	c non default options:
+4.89/4.98	c
+4.89/4.98	c --addinstant=true
+4.89/4.98	c --iterations_pr=10
+4.89/4.98	c --touched_pr=5
+4.89/4.98	c --verbose=0
+4.89/4.98	c
+4.89/4.98	c Iteration 0
+4.89/4.98	c variables expanded:          260 
+4.89/4.98	c generated reducts:         47125            1% satisfiable
+4.89/4.98	c satisfiable reducts:         430 
+4.89/4.98	c added units:                  14 
+4.89/4.98	c added pr units:                1 
+4.89/4.98	c added pr binaries:           429 
+4.89/4.98	c added pr trinaries:            0 
+4.89/4.98	c procesed candidates:           0 
+4.89/4.98	c blocked candidates:            0 
+4.89/4.98	c filtering:                  0.00 sec       0% of process time
+4.89/4.98	c generating:                 0.60 sec      64% of process time
+4.89/4.98	c pruning:                    0.05 sec       5% of process time
+4.89/4.98	c adding:                     0.00 sec       0% of process time
+4.89/4.98	c exploring:                  0.01 sec       1% of process time
+4.89/4.98	c total process time:         0.93 sec
+4.89/4.98	c Iteration 1
+4.89/4.98	c variables expanded:          505 
+4.89/4.98	c generated reducts:         99470            1% satisfiable
+4.89/4.98	c satisfiable reducts:         730 
+4.89/4.98	c added units:                  30 
+4.89/4.98	c added pr units:                1 
+4.89/4.98	c added pr binaries:           729 
+4.89/4.98	c added pr trinaries:            0 
+4.89/4.98	c procesed candidates:           0 
+4.89/4.98	c blocked candidates:            0 
+4.89/4.98	c filtering:                  0.00 sec       0% of process time
+4.89/4.98	c generating:                 1.48 sec      66% of process time
+4.89/4.98	c pruning:                    0.11 sec       5% of process time
+4.89/4.98	c adding:                     0.00 sec       0% of process time
+4.89/4.98	c exploring:                  0.02 sec       1% of process time
+4.89/4.98	c total process time:         2.26 sec
+4.89/4.98	c Iteration 2
+4.89/4.98	c variables expanded:          732 
+4.89/4.98	c generated reducts:        141322            1% satisfiable
+4.89/4.98	c satisfiable reducts:         927 
+4.89/4.98	c added units:                  47 
+4.89/4.98	c added pr units:                1 
+4.89/4.98	c added pr binaries:           926 
+4.89/4.98	c added pr trinaries:            0 
+4.89/4.98	c procesed candidates:           0 
+4.89/4.98	c blocked candidates:            0 
+4.89/4.98	c filtering:                  0.00 sec       0% of process time
+4.89/4.98	c generating:                 2.35 sec      66% of process time
+4.89/4.98	c pruning:                    0.15 sec       4% of process time
+4.89/4.98	c adding:                     0.00 sec       0% of process time
+4.89/4.98	c exploring:                  0.04 sec       1% of process time
+4.89/4.98	c total process time:         3.54 sec
+4.89/4.98	c Iteration 3
+4.89/4.98	c variables expanded:          936 
+4.89/4.98	c generated reducts:        170853            1% satisfiable
+4.89/4.98	c satisfiable reducts:        1027 
+4.89/4.98	c added units:                  76 
+4.89/4.98	c added pr units:                1 
+4.89/4.98	c added pr binaries:          1026 
+4.89/4.98	c added pr trinaries:            0 
+4.89/4.98	c procesed candidates:           0 
+4.89/4.98	c blocked candidates:            0 
+4.89/4.98	c filtering:                  0.00 sec       0% of process time
+4.89/4.98	c generating:                 2.95 sec      66% of process time
+4.89/4.98	c pruning:                    0.18 sec       4% of process time
+4.89/4.98	c adding:                     0.00 sec       0% of process time
+4.89/4.98	c exploring:                  0.05 sec       1% of process time
+4.89/4.98	c total process time:         4.47 sec
+4.89/4.98	c Iteration 4
+4.89/4.98	c variables expanded:         1057 
+4.89/4.98	c generated reducts:        185671            1% satisfiable
+4.89/4.98	c satisfiable reducts:        1046 
+4.89/4.98	c added units:                 101 
+4.89/4.98	c added pr units:                1 
+4.89/4.98	c added pr binaries:          1045 
+4.89/4.98	c added pr trinaries:            0 
+4.89/4.98	c procesed candidates:           0 
+4.89/4.98	c blocked candidates:            0 
+4.89/4.98	c filtering:                  0.00 sec       0% of process time
+4.89/4.98	c generating:                 3.26 sec      66% of process time
+4.89/4.98	c pruning:                    0.20 sec       4% of process time
+4.89/4.98	c adding:                     0.00 sec       0% of process time
+4.89/4.98	c exploring:                  0.06 sec       1% of process time
+4.89/4.98	c total process time:         4.95 sec
+4.89/4.98	TOP LEVEL CONFLICT
+4.89/4.98	c variables expanded:         1058 
+4.89/4.98	c generated reducts:        185671            1% satisfiable
+4.89/4.98	c satisfiable reducts:        1046 
+4.89/4.98	c added units:                 102 
+4.89/4.98	c added pr units:                1 
+4.89/4.98	c added pr binaries:          1045 
+4.89/4.98	c added pr trinaries:            0 
+4.89/4.98	c procesed candidates:           0 
+4.89/4.98	c blocked candidates:            0 
+4.89/4.98	c filtering:                  0.00 sec       0% of process time
+4.89/4.98	c generating:                 3.26 sec      66% of process time
+4.89/4.98	c pruning:                    0.20 sec       4% of process time
+4.89/4.98	c adding:                     0.00 sec       0% of process time
+4.89/4.98	c exploring:                  0.06 sec       1% of process time
+4.89/4.98	c total process time:         4.95 sec
+4.94/5.04	cat: /export/starexec/sandbox/output/output_files/chess.dpr: No such file or directory
+4.94/5.05	EOF

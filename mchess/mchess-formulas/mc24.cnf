@@ -1,0 +1,4311 @@
+p cnf 1100 3736
+c Exactly one constraints for square 23,0 (2 variables)
+1056 1079 0
+-1079 -1056 0
+c Exactly one constraints for square 22,0 (3 variables)
+1009 1033 1056 0
+-1033 -1009 0
+-1056 -1009 0
+-1056 -1033 0
+c Exactly one constraints for square 21,0 (3 variables)
+962 986 1009 0
+-986 -962 0
+-1009 -962 0
+-1009 -986 0
+c Exactly one constraints for square 20,0 (3 variables)
+915 939 962 0
+-939 -915 0
+-962 -915 0
+-962 -939 0
+c Exactly one constraints for square 19,0 (3 variables)
+868 892 915 0
+-892 -868 0
+-915 -868 0
+-915 -892 0
+c Exactly one constraints for square 18,0 (3 variables)
+821 845 868 0
+-845 -821 0
+-868 -821 0
+-868 -845 0
+c Exactly one constraints for square 17,0 (3 variables)
+774 798 821 0
+-798 -774 0
+-821 -774 0
+-821 -798 0
+c Exactly one constraints for square 16,0 (3 variables)
+727 751 774 0
+-751 -727 0
+-774 -727 0
+-774 -751 0
+c Exactly one constraints for square 15,0 (3 variables)
+680 704 727 0
+-704 -680 0
+-727 -680 0
+-727 -704 0
+c Exactly one constraints for square 14,0 (3 variables)
+633 657 680 0
+-657 -633 0
+-680 -633 0
+-680 -657 0
+c Exactly one constraints for square 13,0 (3 variables)
+586 610 633 0
+-610 -586 0
+-633 -586 0
+-633 -610 0
+c Exactly one constraints for square 12,0 (3 variables)
+539 563 586 0
+-563 -539 0
+-586 -539 0
+-586 -563 0
+c Exactly one constraints for square 11,0 (3 variables)
+492 516 539 0
+-516 -492 0
+-539 -492 0
+-539 -516 0
+c Exactly one constraints for square 10,0 (3 variables)
+445 469 492 0
+-469 -445 0
+-492 -445 0
+-492 -469 0
+c Exactly one constraints for square 9,0 (3 variables)
+398 422 445 0
+-422 -398 0
+-445 -398 0
+-445 -422 0
+c Exactly one constraints for square 8,0 (3 variables)
+351 375 398 0
+-375 -351 0
+-398 -351 0
+-398 -375 0
+c Exactly one constraints for square 7,0 (3 variables)
+304 328 351 0
+-328 -304 0
+-351 -304 0
+-351 -328 0
+c Exactly one constraints for square 6,0 (3 variables)
+257 281 304 0
+-281 -257 0
+-304 -257 0
+-304 -281 0
+c Exactly one constraints for square 5,0 (3 variables)
+210 234 257 0
+-234 -210 0
+-257 -210 0
+-257 -234 0
+c Exactly one constraints for square 4,0 (3 variables)
+163 187 210 0
+-187 -163 0
+-210 -163 0
+-210 -187 0
+c Exactly one constraints for square 3,0 (3 variables)
+116 140 163 0
+-140 -116 0
+-163 -116 0
+-163 -140 0
+c Exactly one constraints for square 2,0 (3 variables)
+69 93 116 0
+-93 -69 0
+-116 -69 0
+-116 -93 0
+c Exactly one constraints for square 1,0 (2 variables)
+46 69 0
+-69 -46 0
+c Exactly one constraints for square 23,1 (3 variables)
+1057 1080 1079 0
+-1080 -1057 0
+-1079 -1057 0
+-1079 -1080 0
+c Exactly one constraints for square 22,1 (4 variables)
+1010 1034 1057 1033 0
+-1034 -1010 0
+-1057 -1010 0
+-1057 -1034 0
+-1033 -1010 0
+-1033 -1034 0
+-1033 -1057 0
+c Exactly one constraints for square 21,1 (4 variables)
+963 987 1010 986 0
+-987 -963 0
+-1010 -963 0
+-1010 -987 0
+-986 -963 0
+-986 -987 0
+-986 -1010 0
+c Exactly one constraints for square 20,1 (4 variables)
+916 940 963 939 0
+-940 -916 0
+-963 -916 0
+-963 -940 0
+-939 -916 0
+-939 -940 0
+-939 -963 0
+c Exactly one constraints for square 19,1 (4 variables)
+869 893 916 892 0
+-893 -869 0
+-916 -869 0
+-916 -893 0
+-892 -869 0
+-892 -893 0
+-892 -916 0
+c Exactly one constraints for square 18,1 (4 variables)
+822 846 869 845 0
+-846 -822 0
+-869 -822 0
+-869 -846 0
+-845 -822 0
+-845 -846 0
+-845 -869 0
+c Exactly one constraints for square 17,1 (4 variables)
+775 799 822 798 0
+-799 -775 0
+-822 -775 0
+-822 -799 0
+-798 -775 0
+-798 -799 0
+-798 -822 0
+c Exactly one constraints for square 16,1 (4 variables)
+728 752 775 751 0
+-752 -728 0
+-775 -728 0
+-775 -752 0
+-751 -728 0
+-751 -752 0
+-751 -775 0
+c Exactly one constraints for square 15,1 (4 variables)
+681 705 728 704 0
+-705 -681 0
+-728 -681 0
+-728 -705 0
+-704 -681 0
+-704 -705 0
+-704 -728 0
+c Exactly one constraints for square 14,1 (4 variables)
+634 658 681 657 0
+-658 -634 0
+-681 -634 0
+-681 -658 0
+-657 -634 0
+-657 -658 0
+-657 -681 0
+c Exactly one constraints for square 13,1 (4 variables)
+587 611 634 610 0
+-611 -587 0
+-634 -587 0
+-634 -611 0
+-610 -587 0
+-610 -611 0
+-610 -634 0
+c Exactly one constraints for square 12,1 (4 variables)
+540 564 587 563 0
+-564 -540 0
+-587 -540 0
+-587 -564 0
+-563 -540 0
+-563 -564 0
+-563 -587 0
+c Exactly one constraints for square 11,1 (4 variables)
+493 517 540 516 0
+-517 -493 0
+-540 -493 0
+-540 -517 0
+-516 -493 0
+-516 -517 0
+-516 -540 0
+c Exactly one constraints for square 10,1 (4 variables)
+446 470 493 469 0
+-470 -446 0
+-493 -446 0
+-493 -470 0
+-469 -446 0
+-469 -470 0
+-469 -493 0
+c Exactly one constraints for square 9,1 (4 variables)
+399 423 446 422 0
+-423 -399 0
+-446 -399 0
+-446 -423 0
+-422 -399 0
+-422 -423 0
+-422 -446 0
+c Exactly one constraints for square 8,1 (4 variables)
+352 376 399 375 0
+-376 -352 0
+-399 -352 0
+-399 -376 0
+-375 -352 0
+-375 -376 0
+-375 -399 0
+c Exactly one constraints for square 7,1 (4 variables)
+305 329 352 328 0
+-329 -305 0
+-352 -305 0
+-352 -329 0
+-328 -305 0
+-328 -329 0
+-328 -352 0
+c Exactly one constraints for square 6,1 (4 variables)
+258 282 305 281 0
+-282 -258 0
+-305 -258 0
+-305 -282 0
+-281 -258 0
+-281 -282 0
+-281 -305 0
+c Exactly one constraints for square 5,1 (4 variables)
+211 235 258 234 0
+-235 -211 0
+-258 -211 0
+-258 -235 0
+-234 -211 0
+-234 -235 0
+-234 -258 0
+c Exactly one constraints for square 4,1 (4 variables)
+164 188 211 187 0
+-188 -164 0
+-211 -164 0
+-211 -188 0
+-187 -164 0
+-187 -188 0
+-187 -211 0
+c Exactly one constraints for square 3,1 (4 variables)
+117 141 164 140 0
+-141 -117 0
+-164 -117 0
+-164 -141 0
+-140 -117 0
+-140 -141 0
+-140 -164 0
+c Exactly one constraints for square 2,1 (4 variables)
+70 94 117 93 0
+-94 -70 0
+-117 -70 0
+-117 -94 0
+-93 -70 0
+-93 -94 0
+-93 -117 0
+c Exactly one constraints for square 1,1 (4 variables)
+23 47 70 46 0
+-47 -23 0
+-70 -23 0
+-70 -47 0
+-46 -23 0
+-46 -47 0
+-46 -70 0
+c Exactly one constraints for square 0,1 (2 variables)
+1 23 0
+-23 -1 0
+c Exactly one constraints for square 23,2 (3 variables)
+1058 1081 1080 0
+-1081 -1058 0
+-1080 -1058 0
+-1080 -1081 0
+c Exactly one constraints for square 22,2 (4 variables)
+1011 1035 1058 1034 0
+-1035 -1011 0
+-1058 -1011 0
+-1058 -1035 0
+-1034 -1011 0
+-1034 -1035 0
+-1034 -1058 0
+c Exactly one constraints for square 21,2 (4 variables)
+964 988 1011 987 0
+-988 -964 0
+-1011 -964 0
+-1011 -988 0
+-987 -964 0
+-987 -988 0
+-987 -1011 0
+c Exactly one constraints for square 20,2 (4 variables)
+917 941 964 940 0
+-941 -917 0
+-964 -917 0
+-964 -941 0
+-940 -917 0
+-940 -941 0
+-940 -964 0
+c Exactly one constraints for square 19,2 (4 variables)
+870 894 917 893 0
+-894 -870 0
+-917 -870 0
+-917 -894 0
+-893 -870 0
+-893 -894 0
+-893 -917 0
+c Exactly one constraints for square 18,2 (4 variables)
+823 847 870 846 0
+-847 -823 0
+-870 -823 0
+-870 -847 0
+-846 -823 0
+-846 -847 0
+-846 -870 0
+c Exactly one constraints for square 17,2 (4 variables)
+776 800 823 799 0
+-800 -776 0
+-823 -776 0
+-823 -800 0
+-799 -776 0
+-799 -800 0
+-799 -823 0
+c Exactly one constraints for square 16,2 (4 variables)
+729 753 776 752 0
+-753 -729 0
+-776 -729 0
+-776 -753 0
+-752 -729 0
+-752 -753 0
+-752 -776 0
+c Exactly one constraints for square 15,2 (4 variables)
+682 706 729 705 0
+-706 -682 0
+-729 -682 0
+-729 -706 0
+-705 -682 0
+-705 -706 0
+-705 -729 0
+c Exactly one constraints for square 14,2 (4 variables)
+635 659 682 658 0
+-659 -635 0
+-682 -635 0
+-682 -659 0
+-658 -635 0
+-658 -659 0
+-658 -682 0
+c Exactly one constraints for square 13,2 (4 variables)
+588 612 635 611 0
+-612 -588 0
+-635 -588 0
+-635 -612 0
+-611 -588 0
+-611 -612 0
+-611 -635 0
+c Exactly one constraints for square 12,2 (4 variables)
+541 565 588 564 0
+-565 -541 0
+-588 -541 0
+-588 -565 0
+-564 -541 0
+-564 -565 0
+-564 -588 0
+c Exactly one constraints for square 11,2 (4 variables)
+494 518 541 517 0
+-518 -494 0
+-541 -494 0
+-541 -518 0
+-517 -494 0
+-517 -518 0
+-517 -541 0
+c Exactly one constraints for square 10,2 (4 variables)
+447 471 494 470 0
+-471 -447 0
+-494 -447 0
+-494 -471 0
+-470 -447 0
+-470 -471 0
+-470 -494 0
+c Exactly one constraints for square 9,2 (4 variables)
+400 424 447 423 0
+-424 -400 0
+-447 -400 0
+-447 -424 0
+-423 -400 0
+-423 -424 0
+-423 -447 0
+c Exactly one constraints for square 8,2 (4 variables)
+353 377 400 376 0
+-377 -353 0
+-400 -353 0
+-400 -377 0
+-376 -353 0
+-376 -377 0
+-376 -400 0
+c Exactly one constraints for square 7,2 (4 variables)
+306 330 353 329 0
+-330 -306 0
+-353 -306 0
+-353 -330 0
+-329 -306 0
+-329 -330 0
+-329 -353 0
+c Exactly one constraints for square 6,2 (4 variables)
+259 283 306 282 0
+-283 -259 0
+-306 -259 0
+-306 -283 0
+-282 -259 0
+-282 -283 0
+-282 -306 0
+c Exactly one constraints for square 5,2 (4 variables)
+212 236 259 235 0
+-236 -212 0
+-259 -212 0
+-259 -236 0
+-235 -212 0
+-235 -236 0
+-235 -259 0
+c Exactly one constraints for square 4,2 (4 variables)
+165 189 212 188 0
+-189 -165 0
+-212 -165 0
+-212 -189 0
+-188 -165 0
+-188 -189 0
+-188 -212 0
+c Exactly one constraints for square 3,2 (4 variables)
+118 142 165 141 0
+-142 -118 0
+-165 -118 0
+-165 -142 0
+-141 -118 0
+-141 -142 0
+-141 -165 0
+c Exactly one constraints for square 2,2 (4 variables)
+71 95 118 94 0
+-95 -71 0
+-118 -71 0
+-118 -95 0
+-94 -71 0
+-94 -95 0
+-94 -118 0
+c Exactly one constraints for square 1,2 (4 variables)
+24 48 71 47 0
+-48 -24 0
+-71 -24 0
+-71 -48 0
+-47 -24 0
+-47 -48 0
+-47 -71 0
+c Exactly one constraints for square 0,2 (3 variables)
+2 24 1 0
+-24 -2 0
+-1 -2 0
+-1 -24 0
+c Exactly one constraints for square 23,3 (3 variables)
+1059 1082 1081 0
+-1082 -1059 0
+-1081 -1059 0
+-1081 -1082 0
+c Exactly one constraints for square 22,3 (4 variables)
+1012 1036 1059 1035 0
+-1036 -1012 0
+-1059 -1012 0
+-1059 -1036 0
+-1035 -1012 0
+-1035 -1036 0
+-1035 -1059 0
+c Exactly one constraints for square 21,3 (4 variables)
+965 989 1012 988 0
+-989 -965 0
+-1012 -965 0
+-1012 -989 0
+-988 -965 0
+-988 -989 0
+-988 -1012 0
+c Exactly one constraints for square 20,3 (4 variables)
+918 942 965 941 0
+-942 -918 0
+-965 -918 0
+-965 -942 0
+-941 -918 0
+-941 -942 0
+-941 -965 0
+c Exactly one constraints for square 19,3 (4 variables)
+871 895 918 894 0
+-895 -871 0
+-918 -871 0
+-918 -895 0
+-894 -871 0
+-894 -895 0
+-894 -918 0
+c Exactly one constraints for square 18,3 (4 variables)
+824 848 871 847 0
+-848 -824 0
+-871 -824 0
+-871 -848 0
+-847 -824 0
+-847 -848 0
+-847 -871 0
+c Exactly one constraints for square 17,3 (4 variables)
+777 801 824 800 0
+-801 -777 0
+-824 -777 0
+-824 -801 0
+-800 -777 0
+-800 -801 0
+-800 -824 0
+c Exactly one constraints for square 16,3 (4 variables)
+730 754 777 753 0
+-754 -730 0
+-777 -730 0
+-777 -754 0
+-753 -730 0
+-753 -754 0
+-753 -777 0
+c Exactly one constraints for square 15,3 (4 variables)
+683 707 730 706 0
+-707 -683 0
+-730 -683 0
+-730 -707 0
+-706 -683 0
+-706 -707 0
+-706 -730 0
+c Exactly one constraints for square 14,3 (4 variables)
+636 660 683 659 0
+-660 -636 0
+-683 -636 0
+-683 -660 0
+-659 -636 0
+-659 -660 0
+-659 -683 0
+c Exactly one constraints for square 13,3 (4 variables)
+589 613 636 612 0
+-613 -589 0
+-636 -589 0
+-636 -613 0
+-612 -589 0
+-612 -613 0
+-612 -636 0
+c Exactly one constraints for square 12,3 (4 variables)
+542 566 589 565 0
+-566 -542 0
+-589 -542 0
+-589 -566 0
+-565 -542 0
+-565 -566 0
+-565 -589 0
+c Exactly one constraints for square 11,3 (4 variables)
+495 519 542 518 0
+-519 -495 0
+-542 -495 0
+-542 -519 0
+-518 -495 0
+-518 -519 0
+-518 -542 0
+c Exactly one constraints for square 10,3 (4 variables)
+448 472 495 471 0
+-472 -448 0
+-495 -448 0
+-495 -472 0
+-471 -448 0
+-471 -472 0
+-471 -495 0
+c Exactly one constraints for square 9,3 (4 variables)
+401 425 448 424 0
+-425 -401 0
+-448 -401 0
+-448 -425 0
+-424 -401 0
+-424 -425 0
+-424 -448 0
+c Exactly one constraints for square 8,3 (4 variables)
+354 378 401 377 0
+-378 -354 0
+-401 -354 0
+-401 -378 0
+-377 -354 0
+-377 -378 0
+-377 -401 0
+c Exactly one constraints for square 7,3 (4 variables)
+307 331 354 330 0
+-331 -307 0
+-354 -307 0
+-354 -331 0
+-330 -307 0
+-330 -331 0
+-330 -354 0
+c Exactly one constraints for square 6,3 (4 variables)
+260 284 307 283 0
+-284 -260 0
+-307 -260 0
+-307 -284 0
+-283 -260 0
+-283 -284 0
+-283 -307 0
+c Exactly one constraints for square 5,3 (4 variables)
+213 237 260 236 0
+-237 -213 0
+-260 -213 0
+-260 -237 0
+-236 -213 0
+-236 -237 0
+-236 -260 0
+c Exactly one constraints for square 4,3 (4 variables)
+166 190 213 189 0
+-190 -166 0
+-213 -166 0
+-213 -190 0
+-189 -166 0
+-189 -190 0
+-189 -213 0
+c Exactly one constraints for square 3,3 (4 variables)
+119 143 166 142 0
+-143 -119 0
+-166 -119 0
+-166 -143 0
+-142 -119 0
+-142 -143 0
+-142 -166 0
+c Exactly one constraints for square 2,3 (4 variables)
+72 96 119 95 0
+-96 -72 0
+-119 -72 0
+-119 -96 0
+-95 -72 0
+-95 -96 0
+-95 -119 0
+c Exactly one constraints for square 1,3 (4 variables)
+25 49 72 48 0
+-49 -25 0
+-72 -25 0
+-72 -49 0
+-48 -25 0
+-48 -49 0
+-48 -72 0
+c Exactly one constraints for square 0,3 (3 variables)
+3 25 2 0
+-25 -3 0
+-2 -3 0
+-2 -25 0
+c Exactly one constraints for square 23,4 (3 variables)
+1060 1083 1082 0
+-1083 -1060 0
+-1082 -1060 0
+-1082 -1083 0
+c Exactly one constraints for square 22,4 (4 variables)
+1013 1037 1060 1036 0
+-1037 -1013 0
+-1060 -1013 0
+-1060 -1037 0
+-1036 -1013 0
+-1036 -1037 0
+-1036 -1060 0
+c Exactly one constraints for square 21,4 (4 variables)
+966 990 1013 989 0
+-990 -966 0
+-1013 -966 0
+-1013 -990 0
+-989 -966 0
+-989 -990 0
+-989 -1013 0
+c Exactly one constraints for square 20,4 (4 variables)
+919 943 966 942 0
+-943 -919 0
+-966 -919 0
+-966 -943 0
+-942 -919 0
+-942 -943 0
+-942 -966 0
+c Exactly one constraints for square 19,4 (4 variables)
+872 896 919 895 0
+-896 -872 0
+-919 -872 0
+-919 -896 0
+-895 -872 0
+-895 -896 0
+-895 -919 0
+c Exactly one constraints for square 18,4 (4 variables)
+825 849 872 848 0
+-849 -825 0
+-872 -825 0
+-872 -849 0
+-848 -825 0
+-848 -849 0
+-848 -872 0
+c Exactly one constraints for square 17,4 (4 variables)
+778 802 825 801 0
+-802 -778 0
+-825 -778 0
+-825 -802 0
+-801 -778 0
+-801 -802 0
+-801 -825 0
+c Exactly one constraints for square 16,4 (4 variables)
+731 755 778 754 0
+-755 -731 0
+-778 -731 0
+-778 -755 0
+-754 -731 0
+-754 -755 0
+-754 -778 0
+c Exactly one constraints for square 15,4 (4 variables)
+684 708 731 707 0
+-708 -684 0
+-731 -684 0
+-731 -708 0
+-707 -684 0
+-707 -708 0
+-707 -731 0
+c Exactly one constraints for square 14,4 (4 variables)
+637 661 684 660 0
+-661 -637 0
+-684 -637 0
+-684 -661 0
+-660 -637 0
+-660 -661 0
+-660 -684 0
+c Exactly one constraints for square 13,4 (4 variables)
+590 614 637 613 0
+-614 -590 0
+-637 -590 0
+-637 -614 0
+-613 -590 0
+-613 -614 0
+-613 -637 0
+c Exactly one constraints for square 12,4 (4 variables)
+543 567 590 566 0
+-567 -543 0
+-590 -543 0
+-590 -567 0
+-566 -543 0
+-566 -567 0
+-566 -590 0
+c Exactly one constraints for square 11,4 (4 variables)
+496 520 543 519 0
+-520 -496 0
+-543 -496 0
+-543 -520 0
+-519 -496 0
+-519 -520 0
+-519 -543 0
+c Exactly one constraints for square 10,4 (4 variables)
+449 473 496 472 0
+-473 -449 0
+-496 -449 0
+-496 -473 0
+-472 -449 0
+-472 -473 0
+-472 -496 0
+c Exactly one constraints for square 9,4 (4 variables)
+402 426 449 425 0
+-426 -402 0
+-449 -402 0
+-449 -426 0
+-425 -402 0
+-425 -426 0
+-425 -449 0
+c Exactly one constraints for square 8,4 (4 variables)
+355 379 402 378 0
+-379 -355 0
+-402 -355 0
+-402 -379 0
+-378 -355 0
+-378 -379 0
+-378 -402 0
+c Exactly one constraints for square 7,4 (4 variables)
+308 332 355 331 0
+-332 -308 0
+-355 -308 0
+-355 -332 0
+-331 -308 0
+-331 -332 0
+-331 -355 0
+c Exactly one constraints for square 6,4 (4 variables)
+261 285 308 284 0
+-285 -261 0
+-308 -261 0
+-308 -285 0
+-284 -261 0
+-284 -285 0
+-284 -308 0
+c Exactly one constraints for square 5,4 (4 variables)
+214 238 261 237 0
+-238 -214 0
+-261 -214 0
+-261 -238 0
+-237 -214 0
+-237 -238 0
+-237 -261 0
+c Exactly one constraints for square 4,4 (4 variables)
+167 191 214 190 0
+-191 -167 0
+-214 -167 0
+-214 -191 0
+-190 -167 0
+-190 -191 0
+-190 -214 0
+c Exactly one constraints for square 3,4 (4 variables)
+120 144 167 143 0
+-144 -120 0
+-167 -120 0
+-167 -144 0
+-143 -120 0
+-143 -144 0
+-143 -167 0
+c Exactly one constraints for square 2,4 (4 variables)
+73 97 120 96 0
+-97 -73 0
+-120 -73 0
+-120 -97 0
+-96 -73 0
+-96 -97 0
+-96 -120 0
+c Exactly one constraints for square 1,4 (4 variables)
+26 50 73 49 0
+-50 -26 0
+-73 -26 0
+-73 -50 0
+-49 -26 0
+-49 -50 0
+-49 -73 0
+c Exactly one constraints for square 0,4 (3 variables)
+4 26 3 0
+-26 -4 0
+-3 -4 0
+-3 -26 0
+c Exactly one constraints for square 23,5 (3 variables)
+1061 1084 1083 0
+-1084 -1061 0
+-1083 -1061 0
+-1083 -1084 0
+c Exactly one constraints for square 22,5 (4 variables)
+1014 1038 1061 1037 0
+-1038 -1014 0
+-1061 -1014 0
+-1061 -1038 0
+-1037 -1014 0
+-1037 -1038 0
+-1037 -1061 0
+c Exactly one constraints for square 21,5 (4 variables)
+967 991 1014 990 0
+-991 -967 0
+-1014 -967 0
+-1014 -991 0
+-990 -967 0
+-990 -991 0
+-990 -1014 0
+c Exactly one constraints for square 20,5 (4 variables)
+920 944 967 943 0
+-944 -920 0
+-967 -920 0
+-967 -944 0
+-943 -920 0
+-943 -944 0
+-943 -967 0
+c Exactly one constraints for square 19,5 (4 variables)
+873 897 920 896 0
+-897 -873 0
+-920 -873 0
+-920 -897 0
+-896 -873 0
+-896 -897 0
+-896 -920 0
+c Exactly one constraints for square 18,5 (4 variables)
+826 850 873 849 0
+-850 -826 0
+-873 -826 0
+-873 -850 0
+-849 -826 0
+-849 -850 0
+-849 -873 0
+c Exactly one constraints for square 17,5 (4 variables)
+779 803 826 802 0
+-803 -779 0
+-826 -779 0
+-826 -803 0
+-802 -779 0
+-802 -803 0
+-802 -826 0
+c Exactly one constraints for square 16,5 (4 variables)
+732 756 779 755 0
+-756 -732 0
+-779 -732 0
+-779 -756 0
+-755 -732 0
+-755 -756 0
+-755 -779 0
+c Exactly one constraints for square 15,5 (4 variables)
+685 709 732 708 0
+-709 -685 0
+-732 -685 0
+-732 -709 0
+-708 -685 0
+-708 -709 0
+-708 -732 0
+c Exactly one constraints for square 14,5 (4 variables)
+638 662 685 661 0
+-662 -638 0
+-685 -638 0
+-685 -662 0
+-661 -638 0
+-661 -662 0
+-661 -685 0
+c Exactly one constraints for square 13,5 (4 variables)
+591 615 638 614 0
+-615 -591 0
+-638 -591 0
+-638 -615 0
+-614 -591 0
+-614 -615 0
+-614 -638 0
+c Exactly one constraints for square 12,5 (4 variables)
+544 568 591 567 0
+-568 -544 0
+-591 -544 0
+-591 -568 0
+-567 -544 0
+-567 -568 0
+-567 -591 0
+c Exactly one constraints for square 11,5 (4 variables)
+497 521 544 520 0
+-521 -497 0
+-544 -497 0
+-544 -521 0
+-520 -497 0
+-520 -521 0
+-520 -544 0
+c Exactly one constraints for square 10,5 (4 variables)
+450 474 497 473 0
+-474 -450 0
+-497 -450 0
+-497 -474 0
+-473 -450 0
+-473 -474 0
+-473 -497 0
+c Exactly one constraints for square 9,5 (4 variables)
+403 427 450 426 0
+-427 -403 0
+-450 -403 0
+-450 -427 0
+-426 -403 0
+-426 -427 0
+-426 -450 0
+c Exactly one constraints for square 8,5 (4 variables)
+356 380 403 379 0
+-380 -356 0
+-403 -356 0
+-403 -380 0
+-379 -356 0
+-379 -380 0
+-379 -403 0
+c Exactly one constraints for square 7,5 (4 variables)
+309 333 356 332 0
+-333 -309 0
+-356 -309 0
+-356 -333 0
+-332 -309 0
+-332 -333 0
+-332 -356 0
+c Exactly one constraints for square 6,5 (4 variables)
+262 286 309 285 0
+-286 -262 0
+-309 -262 0
+-309 -286 0
+-285 -262 0
+-285 -286 0
+-285 -309 0
+c Exactly one constraints for square 5,5 (4 variables)
+215 239 262 238 0
+-239 -215 0
+-262 -215 0
+-262 -239 0
+-238 -215 0
+-238 -239 0
+-238 -262 0
+c Exactly one constraints for square 4,5 (4 variables)
+168 192 215 191 0
+-192 -168 0
+-215 -168 0
+-215 -192 0
+-191 -168 0
+-191 -192 0
+-191 -215 0
+c Exactly one constraints for square 3,5 (4 variables)
+121 145 168 144 0
+-145 -121 0
+-168 -121 0
+-168 -145 0
+-144 -121 0
+-144 -145 0
+-144 -168 0
+c Exactly one constraints for square 2,5 (4 variables)
+74 98 121 97 0
+-98 -74 0
+-121 -74 0
+-121 -98 0
+-97 -74 0
+-97 -98 0
+-97 -121 0
+c Exactly one constraints for square 1,5 (4 variables)
+27 51 74 50 0
+-51 -27 0
+-74 -27 0
+-74 -51 0
+-50 -27 0
+-50 -51 0
+-50 -74 0
+c Exactly one constraints for square 0,5 (3 variables)
+5 27 4 0
+-27 -5 0
+-4 -5 0
+-4 -27 0
+c Exactly one constraints for square 23,6 (3 variables)
+1062 1085 1084 0
+-1085 -1062 0
+-1084 -1062 0
+-1084 -1085 0
+c Exactly one constraints for square 22,6 (4 variables)
+1015 1039 1062 1038 0
+-1039 -1015 0
+-1062 -1015 0
+-1062 -1039 0
+-1038 -1015 0
+-1038 -1039 0
+-1038 -1062 0
+c Exactly one constraints for square 21,6 (4 variables)
+968 992 1015 991 0
+-992 -968 0
+-1015 -968 0
+-1015 -992 0
+-991 -968 0
+-991 -992 0
+-991 -1015 0
+c Exactly one constraints for square 20,6 (4 variables)
+921 945 968 944 0
+-945 -921 0
+-968 -921 0
+-968 -945 0
+-944 -921 0
+-944 -945 0
+-944 -968 0
+c Exactly one constraints for square 19,6 (4 variables)
+874 898 921 897 0
+-898 -874 0
+-921 -874 0
+-921 -898 0
+-897 -874 0
+-897 -898 0
+-897 -921 0
+c Exactly one constraints for square 18,6 (4 variables)
+827 851 874 850 0
+-851 -827 0
+-874 -827 0
+-874 -851 0
+-850 -827 0
+-850 -851 0
+-850 -874 0
+c Exactly one constraints for square 17,6 (4 variables)
+780 804 827 803 0
+-804 -780 0
+-827 -780 0
+-827 -804 0
+-803 -780 0
+-803 -804 0
+-803 -827 0
+c Exactly one constraints for square 16,6 (4 variables)
+733 757 780 756 0
+-757 -733 0
+-780 -733 0
+-780 -757 0
+-756 -733 0
+-756 -757 0
+-756 -780 0
+c Exactly one constraints for square 15,6 (4 variables)
+686 710 733 709 0
+-710 -686 0
+-733 -686 0
+-733 -710 0
+-709 -686 0
+-709 -710 0
+-709 -733 0
+c Exactly one constraints for square 14,6 (4 variables)
+639 663 686 662 0
+-663 -639 0
+-686 -639 0
+-686 -663 0
+-662 -639 0
+-662 -663 0
+-662 -686 0
+c Exactly one constraints for square 13,6 (4 variables)
+592 616 639 615 0
+-616 -592 0
+-639 -592 0
+-639 -616 0
+-615 -592 0
+-615 -616 0
+-615 -639 0
+c Exactly one constraints for square 12,6 (4 variables)
+545 569 592 568 0
+-569 -545 0
+-592 -545 0
+-592 -569 0
+-568 -545 0
+-568 -569 0
+-568 -592 0
+c Exactly one constraints for square 11,6 (4 variables)
+498 522 545 521 0
+-522 -498 0
+-545 -498 0
+-545 -522 0
+-521 -498 0
+-521 -522 0
+-521 -545 0
+c Exactly one constraints for square 10,6 (4 variables)
+451 475 498 474 0
+-475 -451 0
+-498 -451 0
+-498 -475 0
+-474 -451 0
+-474 -475 0
+-474 -498 0
+c Exactly one constraints for square 9,6 (4 variables)
+404 428 451 427 0
+-428 -404 0
+-451 -404 0
+-451 -428 0
+-427 -404 0
+-427 -428 0
+-427 -451 0
+c Exactly one constraints for square 8,6 (4 variables)
+357 381 404 380 0
+-381 -357 0
+-404 -357 0
+-404 -381 0
+-380 -357 0
+-380 -381 0
+-380 -404 0
+c Exactly one constraints for square 7,6 (4 variables)
+310 334 357 333 0
+-334 -310 0
+-357 -310 0
+-357 -334 0
+-333 -310 0
+-333 -334 0
+-333 -357 0
+c Exactly one constraints for square 6,6 (4 variables)
+263 287 310 286 0
+-287 -263 0
+-310 -263 0
+-310 -287 0
+-286 -263 0
+-286 -287 0
+-286 -310 0
+c Exactly one constraints for square 5,6 (4 variables)
+216 240 263 239 0
+-240 -216 0
+-263 -216 0
+-263 -240 0
+-239 -216 0
+-239 -240 0
+-239 -263 0
+c Exactly one constraints for square 4,6 (4 variables)
+169 193 216 192 0
+-193 -169 0
+-216 -169 0
+-216 -193 0
+-192 -169 0
+-192 -193 0
+-192 -216 0
+c Exactly one constraints for square 3,6 (4 variables)
+122 146 169 145 0
+-146 -122 0
+-169 -122 0
+-169 -146 0
+-145 -122 0
+-145 -146 0
+-145 -169 0
+c Exactly one constraints for square 2,6 (4 variables)
+75 99 122 98 0
+-99 -75 0
+-122 -75 0
+-122 -99 0
+-98 -75 0
+-98 -99 0
+-98 -122 0
+c Exactly one constraints for square 1,6 (4 variables)
+28 52 75 51 0
+-52 -28 0
+-75 -28 0
+-75 -52 0
+-51 -28 0
+-51 -52 0
+-51 -75 0
+c Exactly one constraints for square 0,6 (3 variables)
+6 28 5 0
+-28 -6 0
+-5 -6 0
+-5 -28 0
+c Exactly one constraints for square 23,7 (3 variables)
+1063 1086 1085 0
+-1086 -1063 0
+-1085 -1063 0
+-1085 -1086 0
+c Exactly one constraints for square 22,7 (4 variables)
+1016 1040 1063 1039 0
+-1040 -1016 0
+-1063 -1016 0
+-1063 -1040 0
+-1039 -1016 0
+-1039 -1040 0
+-1039 -1063 0
+c Exactly one constraints for square 21,7 (4 variables)
+969 993 1016 992 0
+-993 -969 0
+-1016 -969 0
+-1016 -993 0
+-992 -969 0
+-992 -993 0
+-992 -1016 0
+c Exactly one constraints for square 20,7 (4 variables)
+922 946 969 945 0
+-946 -922 0
+-969 -922 0
+-969 -946 0
+-945 -922 0
+-945 -946 0
+-945 -969 0
+c Exactly one constraints for square 19,7 (4 variables)
+875 899 922 898 0
+-899 -875 0
+-922 -875 0
+-922 -899 0
+-898 -875 0
+-898 -899 0
+-898 -922 0
+c Exactly one constraints for square 18,7 (4 variables)
+828 852 875 851 0
+-852 -828 0
+-875 -828 0
+-875 -852 0
+-851 -828 0
+-851 -852 0
+-851 -875 0
+c Exactly one constraints for square 17,7 (4 variables)
+781 805 828 804 0
+-805 -781 0
+-828 -781 0
+-828 -805 0
+-804 -781 0
+-804 -805 0
+-804 -828 0
+c Exactly one constraints for square 16,7 (4 variables)
+734 758 781 757 0
+-758 -734 0
+-781 -734 0
+-781 -758 0
+-757 -734 0
+-757 -758 0
+-757 -781 0
+c Exactly one constraints for square 15,7 (4 variables)
+687 711 734 710 0
+-711 -687 0
+-734 -687 0
+-734 -711 0
+-710 -687 0
+-710 -711 0
+-710 -734 0
+c Exactly one constraints for square 14,7 (4 variables)
+640 664 687 663 0
+-664 -640 0
+-687 -640 0
+-687 -664 0
+-663 -640 0
+-663 -664 0
+-663 -687 0
+c Exactly one constraints for square 13,7 (4 variables)
+593 617 640 616 0
+-617 -593 0
+-640 -593 0
+-640 -617 0
+-616 -593 0
+-616 -617 0
+-616 -640 0
+c Exactly one constraints for square 12,7 (4 variables)
+546 570 593 569 0
+-570 -546 0
+-593 -546 0
+-593 -570 0
+-569 -546 0
+-569 -570 0
+-569 -593 0
+c Exactly one constraints for square 11,7 (4 variables)
+499 523 546 522 0
+-523 -499 0
+-546 -499 0
+-546 -523 0
+-522 -499 0
+-522 -523 0
+-522 -546 0
+c Exactly one constraints for square 10,7 (4 variables)
+452 476 499 475 0
+-476 -452 0
+-499 -452 0
+-499 -476 0
+-475 -452 0
+-475 -476 0
+-475 -499 0
+c Exactly one constraints for square 9,7 (4 variables)
+405 429 452 428 0
+-429 -405 0
+-452 -405 0
+-452 -429 0
+-428 -405 0
+-428 -429 0
+-428 -452 0
+c Exactly one constraints for square 8,7 (4 variables)
+358 382 405 381 0
+-382 -358 0
+-405 -358 0
+-405 -382 0
+-381 -358 0
+-381 -382 0
+-381 -405 0
+c Exactly one constraints for square 7,7 (4 variables)
+311 335 358 334 0
+-335 -311 0
+-358 -311 0
+-358 -335 0
+-334 -311 0
+-334 -335 0
+-334 -358 0
+c Exactly one constraints for square 6,7 (4 variables)
+264 288 311 287 0
+-288 -264 0
+-311 -264 0
+-311 -288 0
+-287 -264 0
+-287 -288 0
+-287 -311 0
+c Exactly one constraints for square 5,7 (4 variables)
+217 241 264 240 0
+-241 -217 0
+-264 -217 0
+-264 -241 0
+-240 -217 0
+-240 -241 0
+-240 -264 0
+c Exactly one constraints for square 4,7 (4 variables)
+170 194 217 193 0
+-194 -170 0
+-217 -170 0
+-217 -194 0
+-193 -170 0
+-193 -194 0
+-193 -217 0
+c Exactly one constraints for square 3,7 (4 variables)
+123 147 170 146 0
+-147 -123 0
+-170 -123 0
+-170 -147 0
+-146 -123 0
+-146 -147 0
+-146 -170 0
+c Exactly one constraints for square 2,7 (4 variables)
+76 100 123 99 0
+-100 -76 0
+-123 -76 0
+-123 -100 0
+-99 -76 0
+-99 -100 0
+-99 -123 0
+c Exactly one constraints for square 1,7 (4 variables)
+29 53 76 52 0
+-53 -29 0
+-76 -29 0
+-76 -53 0
+-52 -29 0
+-52 -53 0
+-52 -76 0
+c Exactly one constraints for square 0,7 (3 variables)
+7 29 6 0
+-29 -7 0
+-6 -7 0
+-6 -29 0
+c Exactly one constraints for square 23,8 (3 variables)
+1064 1087 1086 0
+-1087 -1064 0
+-1086 -1064 0
+-1086 -1087 0
+c Exactly one constraints for square 22,8 (4 variables)
+1017 1041 1064 1040 0
+-1041 -1017 0
+-1064 -1017 0
+-1064 -1041 0
+-1040 -1017 0
+-1040 -1041 0
+-1040 -1064 0
+c Exactly one constraints for square 21,8 (4 variables)
+970 994 1017 993 0
+-994 -970 0
+-1017 -970 0
+-1017 -994 0
+-993 -970 0
+-993 -994 0
+-993 -1017 0
+c Exactly one constraints for square 20,8 (4 variables)
+923 947 970 946 0
+-947 -923 0
+-970 -923 0
+-970 -947 0
+-946 -923 0
+-946 -947 0
+-946 -970 0
+c Exactly one constraints for square 19,8 (4 variables)
+876 900 923 899 0
+-900 -876 0
+-923 -876 0
+-923 -900 0
+-899 -876 0
+-899 -900 0
+-899 -923 0
+c Exactly one constraints for square 18,8 (4 variables)
+829 853 876 852 0
+-853 -829 0
+-876 -829 0
+-876 -853 0
+-852 -829 0
+-852 -853 0
+-852 -876 0
+c Exactly one constraints for square 17,8 (4 variables)
+782 806 829 805 0
+-806 -782 0
+-829 -782 0
+-829 -806 0
+-805 -782 0
+-805 -806 0
+-805 -829 0
+c Exactly one constraints for square 16,8 (4 variables)
+735 759 782 758 0
+-759 -735 0
+-782 -735 0
+-782 -759 0
+-758 -735 0
+-758 -759 0
+-758 -782 0
+c Exactly one constraints for square 15,8 (4 variables)
+688 712 735 711 0
+-712 -688 0
+-735 -688 0
+-735 -712 0
+-711 -688 0
+-711 -712 0
+-711 -735 0
+c Exactly one constraints for square 14,8 (4 variables)
+641 665 688 664 0
+-665 -641 0
+-688 -641 0
+-688 -665 0
+-664 -641 0
+-664 -665 0
+-664 -688 0
+c Exactly one constraints for square 13,8 (4 variables)
+594 618 641 617 0
+-618 -594 0
+-641 -594 0
+-641 -618 0
+-617 -594 0
+-617 -618 0
+-617 -641 0
+c Exactly one constraints for square 12,8 (4 variables)
+547 571 594 570 0
+-571 -547 0
+-594 -547 0
+-594 -571 0
+-570 -547 0
+-570 -571 0
+-570 -594 0
+c Exactly one constraints for square 11,8 (4 variables)
+500 524 547 523 0
+-524 -500 0
+-547 -500 0
+-547 -524 0
+-523 -500 0
+-523 -524 0
+-523 -547 0
+c Exactly one constraints for square 10,8 (4 variables)
+453 477 500 476 0
+-477 -453 0
+-500 -453 0
+-500 -477 0
+-476 -453 0
+-476 -477 0
+-476 -500 0
+c Exactly one constraints for square 9,8 (4 variables)
+406 430 453 429 0
+-430 -406 0
+-453 -406 0
+-453 -430 0
+-429 -406 0
+-429 -430 0
+-429 -453 0
+c Exactly one constraints for square 8,8 (4 variables)
+359 383 406 382 0
+-383 -359 0
+-406 -359 0
+-406 -383 0
+-382 -359 0
+-382 -383 0
+-382 -406 0
+c Exactly one constraints for square 7,8 (4 variables)
+312 336 359 335 0
+-336 -312 0
+-359 -312 0
+-359 -336 0
+-335 -312 0
+-335 -336 0
+-335 -359 0
+c Exactly one constraints for square 6,8 (4 variables)
+265 289 312 288 0
+-289 -265 0
+-312 -265 0
+-312 -289 0
+-288 -265 0
+-288 -289 0
+-288 -312 0
+c Exactly one constraints for square 5,8 (4 variables)
+218 242 265 241 0
+-242 -218 0
+-265 -218 0
+-265 -242 0
+-241 -218 0
+-241 -242 0
+-241 -265 0
+c Exactly one constraints for square 4,8 (4 variables)
+171 195 218 194 0
+-195 -171 0
+-218 -171 0
+-218 -195 0
+-194 -171 0
+-194 -195 0
+-194 -218 0
+c Exactly one constraints for square 3,8 (4 variables)
+124 148 171 147 0
+-148 -124 0
+-171 -124 0
+-171 -148 0
+-147 -124 0
+-147 -148 0
+-147 -171 0
+c Exactly one constraints for square 2,8 (4 variables)
+77 101 124 100 0
+-101 -77 0
+-124 -77 0
+-124 -101 0
+-100 -77 0
+-100 -101 0
+-100 -124 0
+c Exactly one constraints for square 1,8 (4 variables)
+30 54 77 53 0
+-54 -30 0
+-77 -30 0
+-77 -54 0
+-53 -30 0
+-53 -54 0
+-53 -77 0
+c Exactly one constraints for square 0,8 (3 variables)
+8 30 7 0
+-30 -8 0
+-7 -8 0
+-7 -30 0
+c Exactly one constraints for square 23,9 (3 variables)
+1065 1088 1087 0
+-1088 -1065 0
+-1087 -1065 0
+-1087 -1088 0
+c Exactly one constraints for square 22,9 (4 variables)
+1018 1042 1065 1041 0
+-1042 -1018 0
+-1065 -1018 0
+-1065 -1042 0
+-1041 -1018 0
+-1041 -1042 0
+-1041 -1065 0
+c Exactly one constraints for square 21,9 (4 variables)
+971 995 1018 994 0
+-995 -971 0
+-1018 -971 0
+-1018 -995 0
+-994 -971 0
+-994 -995 0
+-994 -1018 0
+c Exactly one constraints for square 20,9 (4 variables)
+924 948 971 947 0
+-948 -924 0
+-971 -924 0
+-971 -948 0
+-947 -924 0
+-947 -948 0
+-947 -971 0
+c Exactly one constraints for square 19,9 (4 variables)
+877 901 924 900 0
+-901 -877 0
+-924 -877 0
+-924 -901 0
+-900 -877 0
+-900 -901 0
+-900 -924 0
+c Exactly one constraints for square 18,9 (4 variables)
+830 854 877 853 0
+-854 -830 0
+-877 -830 0
+-877 -854 0
+-853 -830 0
+-853 -854 0
+-853 -877 0
+c Exactly one constraints for square 17,9 (4 variables)
+783 807 830 806 0
+-807 -783 0
+-830 -783 0
+-830 -807 0
+-806 -783 0
+-806 -807 0
+-806 -830 0
+c Exactly one constraints for square 16,9 (4 variables)
+736 760 783 759 0
+-760 -736 0
+-783 -736 0
+-783 -760 0
+-759 -736 0
+-759 -760 0
+-759 -783 0
+c Exactly one constraints for square 15,9 (4 variables)
+689 713 736 712 0
+-713 -689 0
+-736 -689 0
+-736 -713 0
+-712 -689 0
+-712 -713 0
+-712 -736 0
+c Exactly one constraints for square 14,9 (4 variables)
+642 666 689 665 0
+-666 -642 0
+-689 -642 0
+-689 -666 0
+-665 -642 0
+-665 -666 0
+-665 -689 0
+c Exactly one constraints for square 13,9 (4 variables)
+595 619 642 618 0
+-619 -595 0
+-642 -595 0
+-642 -619 0
+-618 -595 0
+-618 -619 0
+-618 -642 0
+c Exactly one constraints for square 12,9 (4 variables)
+548 572 595 571 0
+-572 -548 0
+-595 -548 0
+-595 -572 0
+-571 -548 0
+-571 -572 0
+-571 -595 0
+c Exactly one constraints for square 11,9 (4 variables)
+501 525 548 524 0
+-525 -501 0
+-548 -501 0
+-548 -525 0
+-524 -501 0
+-524 -525 0
+-524 -548 0
+c Exactly one constraints for square 10,9 (4 variables)
+454 478 501 477 0
+-478 -454 0
+-501 -454 0
+-501 -478 0
+-477 -454 0
+-477 -478 0
+-477 -501 0
+c Exactly one constraints for square 9,9 (4 variables)
+407 431 454 430 0
+-431 -407 0
+-454 -407 0
+-454 -431 0
+-430 -407 0
+-430 -431 0
+-430 -454 0
+c Exactly one constraints for square 8,9 (4 variables)
+360 384 407 383 0
+-384 -360 0
+-407 -360 0
+-407 -384 0
+-383 -360 0
+-383 -384 0
+-383 -407 0
+c Exactly one constraints for square 7,9 (4 variables)
+313 337 360 336 0
+-337 -313 0
+-360 -313 0
+-360 -337 0
+-336 -313 0
+-336 -337 0
+-336 -360 0
+c Exactly one constraints for square 6,9 (4 variables)
+266 290 313 289 0
+-290 -266 0
+-313 -266 0
+-313 -290 0
+-289 -266 0
+-289 -290 0
+-289 -313 0
+c Exactly one constraints for square 5,9 (4 variables)
+219 243 266 242 0
+-243 -219 0
+-266 -219 0
+-266 -243 0
+-242 -219 0
+-242 -243 0
+-242 -266 0
+c Exactly one constraints for square 4,9 (4 variables)
+172 196 219 195 0
+-196 -172 0
+-219 -172 0
+-219 -196 0
+-195 -172 0
+-195 -196 0
+-195 -219 0
+c Exactly one constraints for square 3,9 (4 variables)
+125 149 172 148 0
+-149 -125 0
+-172 -125 0
+-172 -149 0
+-148 -125 0
+-148 -149 0
+-148 -172 0
+c Exactly one constraints for square 2,9 (4 variables)
+78 102 125 101 0
+-102 -78 0
+-125 -78 0
+-125 -102 0
+-101 -78 0
+-101 -102 0
+-101 -125 0
+c Exactly one constraints for square 1,9 (4 variables)
+31 55 78 54 0
+-55 -31 0
+-78 -31 0
+-78 -55 0
+-54 -31 0
+-54 -55 0
+-54 -78 0
+c Exactly one constraints for square 0,9 (3 variables)
+9 31 8 0
+-31 -9 0
+-8 -9 0
+-8 -31 0
+c Exactly one constraints for square 23,10 (3 variables)
+1066 1089 1088 0
+-1089 -1066 0
+-1088 -1066 0
+-1088 -1089 0
+c Exactly one constraints for square 22,10 (4 variables)
+1019 1043 1066 1042 0
+-1043 -1019 0
+-1066 -1019 0
+-1066 -1043 0
+-1042 -1019 0
+-1042 -1043 0
+-1042 -1066 0
+c Exactly one constraints for square 21,10 (4 variables)
+972 996 1019 995 0
+-996 -972 0
+-1019 -972 0
+-1019 -996 0
+-995 -972 0
+-995 -996 0
+-995 -1019 0
+c Exactly one constraints for square 20,10 (4 variables)
+925 949 972 948 0
+-949 -925 0
+-972 -925 0
+-972 -949 0
+-948 -925 0
+-948 -949 0
+-948 -972 0
+c Exactly one constraints for square 19,10 (4 variables)
+878 902 925 901 0
+-902 -878 0
+-925 -878 0
+-925 -902 0
+-901 -878 0
+-901 -902 0
+-901 -925 0
+c Exactly one constraints for square 18,10 (4 variables)
+831 855 878 854 0
+-855 -831 0
+-878 -831 0
+-878 -855 0
+-854 -831 0
+-854 -855 0
+-854 -878 0
+c Exactly one constraints for square 17,10 (4 variables)
+784 808 831 807 0
+-808 -784 0
+-831 -784 0
+-831 -808 0
+-807 -784 0
+-807 -808 0
+-807 -831 0
+c Exactly one constraints for square 16,10 (4 variables)
+737 761 784 760 0
+-761 -737 0
+-784 -737 0
+-784 -761 0
+-760 -737 0
+-760 -761 0
+-760 -784 0
+c Exactly one constraints for square 15,10 (4 variables)
+690 714 737 713 0
+-714 -690 0
+-737 -690 0
+-737 -714 0
+-713 -690 0
+-713 -714 0
+-713 -737 0
+c Exactly one constraints for square 14,10 (4 variables)
+643 667 690 666 0
+-667 -643 0
+-690 -643 0
+-690 -667 0
+-666 -643 0
+-666 -667 0
+-666 -690 0
+c Exactly one constraints for square 13,10 (4 variables)
+596 620 643 619 0
+-620 -596 0
+-643 -596 0
+-643 -620 0
+-619 -596 0
+-619 -620 0
+-619 -643 0
+c Exactly one constraints for square 12,10 (4 variables)
+549 573 596 572 0
+-573 -549 0
+-596 -549 0
+-596 -573 0
+-572 -549 0
+-572 -573 0
+-572 -596 0
+c Exactly one constraints for square 11,10 (4 variables)
+502 526 549 525 0
+-526 -502 0
+-549 -502 0
+-549 -526 0
+-525 -502 0
+-525 -526 0
+-525 -549 0
+c Exactly one constraints for square 10,10 (4 variables)
+455 479 502 478 0
+-479 -455 0
+-502 -455 0
+-502 -479 0
+-478 -455 0
+-478 -479 0
+-478 -502 0
+c Exactly one constraints for square 9,10 (4 variables)
+408 432 455 431 0
+-432 -408 0
+-455 -408 0
+-455 -432 0
+-431 -408 0
+-431 -432 0
+-431 -455 0
+c Exactly one constraints for square 8,10 (4 variables)
+361 385 408 384 0
+-385 -361 0
+-408 -361 0
+-408 -385 0
+-384 -361 0
+-384 -385 0
+-384 -408 0
+c Exactly one constraints for square 7,10 (4 variables)
+314 338 361 337 0
+-338 -314 0
+-361 -314 0
+-361 -338 0
+-337 -314 0
+-337 -338 0
+-337 -361 0
+c Exactly one constraints for square 6,10 (4 variables)
+267 291 314 290 0
+-291 -267 0
+-314 -267 0
+-314 -291 0
+-290 -267 0
+-290 -291 0
+-290 -314 0
+c Exactly one constraints for square 5,10 (4 variables)
+220 244 267 243 0
+-244 -220 0
+-267 -220 0
+-267 -244 0
+-243 -220 0
+-243 -244 0
+-243 -267 0
+c Exactly one constraints for square 4,10 (4 variables)
+173 197 220 196 0
+-197 -173 0
+-220 -173 0
+-220 -197 0
+-196 -173 0
+-196 -197 0
+-196 -220 0
+c Exactly one constraints for square 3,10 (4 variables)
+126 150 173 149 0
+-150 -126 0
+-173 -126 0
+-173 -150 0
+-149 -126 0
+-149 -150 0
+-149 -173 0
+c Exactly one constraints for square 2,10 (4 variables)
+79 103 126 102 0
+-103 -79 0
+-126 -79 0
+-126 -103 0
+-102 -79 0
+-102 -103 0
+-102 -126 0
+c Exactly one constraints for square 1,10 (4 variables)
+32 56 79 55 0
+-56 -32 0
+-79 -32 0
+-79 -56 0
+-55 -32 0
+-55 -56 0
+-55 -79 0
+c Exactly one constraints for square 0,10 (3 variables)
+10 32 9 0
+-32 -10 0
+-9 -10 0
+-9 -32 0
+c Exactly one constraints for square 23,11 (3 variables)
+1067 1090 1089 0
+-1090 -1067 0
+-1089 -1067 0
+-1089 -1090 0
+c Exactly one constraints for square 22,11 (4 variables)
+1020 1044 1067 1043 0
+-1044 -1020 0
+-1067 -1020 0
+-1067 -1044 0
+-1043 -1020 0
+-1043 -1044 0
+-1043 -1067 0
+c Exactly one constraints for square 21,11 (4 variables)
+973 997 1020 996 0
+-997 -973 0
+-1020 -973 0
+-1020 -997 0
+-996 -973 0
+-996 -997 0
+-996 -1020 0
+c Exactly one constraints for square 20,11 (4 variables)
+926 950 973 949 0
+-950 -926 0
+-973 -926 0
+-973 -950 0
+-949 -926 0
+-949 -950 0
+-949 -973 0
+c Exactly one constraints for square 19,11 (4 variables)
+879 903 926 902 0
+-903 -879 0
+-926 -879 0
+-926 -903 0
+-902 -879 0
+-902 -903 0
+-902 -926 0
+c Exactly one constraints for square 18,11 (4 variables)
+832 856 879 855 0
+-856 -832 0
+-879 -832 0
+-879 -856 0
+-855 -832 0
+-855 -856 0
+-855 -879 0
+c Exactly one constraints for square 17,11 (4 variables)
+785 809 832 808 0
+-809 -785 0
+-832 -785 0
+-832 -809 0
+-808 -785 0
+-808 -809 0
+-808 -832 0
+c Exactly one constraints for square 16,11 (4 variables)
+738 762 785 761 0
+-762 -738 0
+-785 -738 0
+-785 -762 0
+-761 -738 0
+-761 -762 0
+-761 -785 0
+c Exactly one constraints for square 15,11 (4 variables)
+691 715 738 714 0
+-715 -691 0
+-738 -691 0
+-738 -715 0
+-714 -691 0
+-714 -715 0
+-714 -738 0
+c Exactly one constraints for square 14,11 (4 variables)
+644 668 691 667 0
+-668 -644 0
+-691 -644 0
+-691 -668 0
+-667 -644 0
+-667 -668 0
+-667 -691 0
+c Exactly one constraints for square 13,11 (4 variables)
+597 621 644 620 0
+-621 -597 0
+-644 -597 0
+-644 -621 0
+-620 -597 0
+-620 -621 0
+-620 -644 0
+c Exactly one constraints for square 12,11 (4 variables)
+550 574 597 573 0
+-574 -550 0
+-597 -550 0
+-597 -574 0
+-573 -550 0
+-573 -574 0
+-573 -597 0
+c Exactly one constraints for square 11,11 (4 variables)
+503 527 550 526 0
+-527 -503 0
+-550 -503 0
+-550 -527 0
+-526 -503 0
+-526 -527 0
+-526 -550 0
+c Exactly one constraints for square 10,11 (4 variables)
+456 480 503 479 0
+-480 -456 0
+-503 -456 0
+-503 -480 0
+-479 -456 0
+-479 -480 0
+-479 -503 0
+c Exactly one constraints for square 9,11 (4 variables)
+409 433 456 432 0
+-433 -409 0
+-456 -409 0
+-456 -433 0
+-432 -409 0
+-432 -433 0
+-432 -456 0
+c Exactly one constraints for square 8,11 (4 variables)
+362 386 409 385 0
+-386 -362 0
+-409 -362 0
+-409 -386 0
+-385 -362 0
+-385 -386 0
+-385 -409 0
+c Exactly one constraints for square 7,11 (4 variables)
+315 339 362 338 0
+-339 -315 0
+-362 -315 0
+-362 -339 0
+-338 -315 0
+-338 -339 0
+-338 -362 0
+c Exactly one constraints for square 6,11 (4 variables)
+268 292 315 291 0
+-292 -268 0
+-315 -268 0
+-315 -292 0
+-291 -268 0
+-291 -292 0
+-291 -315 0
+c Exactly one constraints for square 5,11 (4 variables)
+221 245 268 244 0
+-245 -221 0
+-268 -221 0
+-268 -245 0
+-244 -221 0
+-244 -245 0
+-244 -268 0
+c Exactly one constraints for square 4,11 (4 variables)
+174 198 221 197 0
+-198 -174 0
+-221 -174 0
+-221 -198 0
+-197 -174 0
+-197 -198 0
+-197 -221 0
+c Exactly one constraints for square 3,11 (4 variables)
+127 151 174 150 0
+-151 -127 0
+-174 -127 0
+-174 -151 0
+-150 -127 0
+-150 -151 0
+-150 -174 0
+c Exactly one constraints for square 2,11 (4 variables)
+80 104 127 103 0
+-104 -80 0
+-127 -80 0
+-127 -104 0
+-103 -80 0
+-103 -104 0
+-103 -127 0
+c Exactly one constraints for square 1,11 (4 variables)
+33 57 80 56 0
+-57 -33 0
+-80 -33 0
+-80 -57 0
+-56 -33 0
+-56 -57 0
+-56 -80 0
+c Exactly one constraints for square 0,11 (3 variables)
+11 33 10 0
+-33 -11 0
+-10 -11 0
+-10 -33 0
+c Exactly one constraints for square 23,12 (3 variables)
+1068 1091 1090 0
+-1091 -1068 0
+-1090 -1068 0
+-1090 -1091 0
+c Exactly one constraints for square 22,12 (4 variables)
+1021 1045 1068 1044 0
+-1045 -1021 0
+-1068 -1021 0
+-1068 -1045 0
+-1044 -1021 0
+-1044 -1045 0
+-1044 -1068 0
+c Exactly one constraints for square 21,12 (4 variables)
+974 998 1021 997 0
+-998 -974 0
+-1021 -974 0
+-1021 -998 0
+-997 -974 0
+-997 -998 0
+-997 -1021 0
+c Exactly one constraints for square 20,12 (4 variables)
+927 951 974 950 0
+-951 -927 0
+-974 -927 0
+-974 -951 0
+-950 -927 0
+-950 -951 0
+-950 -974 0
+c Exactly one constraints for square 19,12 (4 variables)
+880 904 927 903 0
+-904 -880 0
+-927 -880 0
+-927 -904 0
+-903 -880 0
+-903 -904 0
+-903 -927 0
+c Exactly one constraints for square 18,12 (4 variables)
+833 857 880 856 0
+-857 -833 0
+-880 -833 0
+-880 -857 0
+-856 -833 0
+-856 -857 0
+-856 -880 0
+c Exactly one constraints for square 17,12 (4 variables)
+786 810 833 809 0
+-810 -786 0
+-833 -786 0
+-833 -810 0
+-809 -786 0
+-809 -810 0
+-809 -833 0
+c Exactly one constraints for square 16,12 (4 variables)
+739 763 786 762 0
+-763 -739 0
+-786 -739 0
+-786 -763 0
+-762 -739 0
+-762 -763 0
+-762 -786 0
+c Exactly one constraints for square 15,12 (4 variables)
+692 716 739 715 0
+-716 -692 0
+-739 -692 0
+-739 -716 0
+-715 -692 0
+-715 -716 0
+-715 -739 0
+c Exactly one constraints for square 14,12 (4 variables)
+645 669 692 668 0
+-669 -645 0
+-692 -645 0
+-692 -669 0
+-668 -645 0
+-668 -669 0
+-668 -692 0
+c Exactly one constraints for square 13,12 (4 variables)
+598 622 645 621 0
+-622 -598 0
+-645 -598 0
+-645 -622 0
+-621 -598 0
+-621 -622 0
+-621 -645 0
+c Exactly one constraints for square 12,12 (4 variables)
+551 575 598 574 0
+-575 -551 0
+-598 -551 0
+-598 -575 0
+-574 -551 0
+-574 -575 0
+-574 -598 0
+c Exactly one constraints for square 11,12 (4 variables)
+504 528 551 527 0
+-528 -504 0
+-551 -504 0
+-551 -528 0
+-527 -504 0
+-527 -528 0
+-527 -551 0
+c Exactly one constraints for square 10,12 (4 variables)
+457 481 504 480 0
+-481 -457 0
+-504 -457 0
+-504 -481 0
+-480 -457 0
+-480 -481 0
+-480 -504 0
+c Exactly one constraints for square 9,12 (4 variables)
+410 434 457 433 0
+-434 -410 0
+-457 -410 0
+-457 -434 0
+-433 -410 0
+-433 -434 0
+-433 -457 0
+c Exactly one constraints for square 8,12 (4 variables)
+363 387 410 386 0
+-387 -363 0
+-410 -363 0
+-410 -387 0
+-386 -363 0
+-386 -387 0
+-386 -410 0
+c Exactly one constraints for square 7,12 (4 variables)
+316 340 363 339 0
+-340 -316 0
+-363 -316 0
+-363 -340 0
+-339 -316 0
+-339 -340 0
+-339 -363 0
+c Exactly one constraints for square 6,12 (4 variables)
+269 293 316 292 0
+-293 -269 0
+-316 -269 0
+-316 -293 0
+-292 -269 0
+-292 -293 0
+-292 -316 0
+c Exactly one constraints for square 5,12 (4 variables)
+222 246 269 245 0
+-246 -222 0
+-269 -222 0
+-269 -246 0
+-245 -222 0
+-245 -246 0
+-245 -269 0
+c Exactly one constraints for square 4,12 (4 variables)
+175 199 222 198 0
+-199 -175 0
+-222 -175 0
+-222 -199 0
+-198 -175 0
+-198 -199 0
+-198 -222 0
+c Exactly one constraints for square 3,12 (4 variables)
+128 152 175 151 0
+-152 -128 0
+-175 -128 0
+-175 -152 0
+-151 -128 0
+-151 -152 0
+-151 -175 0
+c Exactly one constraints for square 2,12 (4 variables)
+81 105 128 104 0
+-105 -81 0
+-128 -81 0
+-128 -105 0
+-104 -81 0
+-104 -105 0
+-104 -128 0
+c Exactly one constraints for square 1,12 (4 variables)
+34 58 81 57 0
+-58 -34 0
+-81 -34 0
+-81 -58 0
+-57 -34 0
+-57 -58 0
+-57 -81 0
+c Exactly one constraints for square 0,12 (3 variables)
+12 34 11 0
+-34 -12 0
+-11 -12 0
+-11 -34 0
+c Exactly one constraints for square 23,13 (3 variables)
+1069 1092 1091 0
+-1092 -1069 0
+-1091 -1069 0
+-1091 -1092 0
+c Exactly one constraints for square 22,13 (4 variables)
+1022 1046 1069 1045 0
+-1046 -1022 0
+-1069 -1022 0
+-1069 -1046 0
+-1045 -1022 0
+-1045 -1046 0
+-1045 -1069 0
+c Exactly one constraints for square 21,13 (4 variables)
+975 999 1022 998 0
+-999 -975 0
+-1022 -975 0
+-1022 -999 0
+-998 -975 0
+-998 -999 0
+-998 -1022 0
+c Exactly one constraints for square 20,13 (4 variables)
+928 952 975 951 0
+-952 -928 0
+-975 -928 0
+-975 -952 0
+-951 -928 0
+-951 -952 0
+-951 -975 0
+c Exactly one constraints for square 19,13 (4 variables)
+881 905 928 904 0
+-905 -881 0
+-928 -881 0
+-928 -905 0
+-904 -881 0
+-904 -905 0
+-904 -928 0
+c Exactly one constraints for square 18,13 (4 variables)
+834 858 881 857 0
+-858 -834 0
+-881 -834 0
+-881 -858 0
+-857 -834 0
+-857 -858 0
+-857 -881 0
+c Exactly one constraints for square 17,13 (4 variables)
+787 811 834 810 0
+-811 -787 0
+-834 -787 0
+-834 -811 0
+-810 -787 0
+-810 -811 0
+-810 -834 0
+c Exactly one constraints for square 16,13 (4 variables)
+740 764 787 763 0
+-764 -740 0
+-787 -740 0
+-787 -764 0
+-763 -740 0
+-763 -764 0
+-763 -787 0
+c Exactly one constraints for square 15,13 (4 variables)
+693 717 740 716 0
+-717 -693 0
+-740 -693 0
+-740 -717 0
+-716 -693 0
+-716 -717 0
+-716 -740 0
+c Exactly one constraints for square 14,13 (4 variables)
+646 670 693 669 0
+-670 -646 0
+-693 -646 0
+-693 -670 0
+-669 -646 0
+-669 -670 0
+-669 -693 0
+c Exactly one constraints for square 13,13 (4 variables)
+599 623 646 622 0
+-623 -599 0
+-646 -599 0
+-646 -623 0
+-622 -599 0
+-622 -623 0
+-622 -646 0
+c Exactly one constraints for square 12,13 (4 variables)
+552 576 599 575 0
+-576 -552 0
+-599 -552 0
+-599 -576 0
+-575 -552 0
+-575 -576 0
+-575 -599 0
+c Exactly one constraints for square 11,13 (4 variables)
+505 529 552 528 0
+-529 -505 0
+-552 -505 0
+-552 -529 0
+-528 -505 0
+-528 -529 0
+-528 -552 0
+c Exactly one constraints for square 10,13 (4 variables)
+458 482 505 481 0
+-482 -458 0
+-505 -458 0
+-505 -482 0
+-481 -458 0
+-481 -482 0
+-481 -505 0
+c Exactly one constraints for square 9,13 (4 variables)
+411 435 458 434 0
+-435 -411 0
+-458 -411 0
+-458 -435 0
+-434 -411 0
+-434 -435 0
+-434 -458 0
+c Exactly one constraints for square 8,13 (4 variables)
+364 388 411 387 0
+-388 -364 0
+-411 -364 0
+-411 -388 0
+-387 -364 0
+-387 -388 0
+-387 -411 0
+c Exactly one constraints for square 7,13 (4 variables)
+317 341 364 340 0
+-341 -317 0
+-364 -317 0
+-364 -341 0
+-340 -317 0
+-340 -341 0
+-340 -364 0
+c Exactly one constraints for square 6,13 (4 variables)
+270 294 317 293 0
+-294 -270 0
+-317 -270 0
+-317 -294 0
+-293 -270 0
+-293 -294 0
+-293 -317 0
+c Exactly one constraints for square 5,13 (4 variables)
+223 247 270 246 0
+-247 -223 0
+-270 -223 0
+-270 -247 0
+-246 -223 0
+-246 -247 0
+-246 -270 0
+c Exactly one constraints for square 4,13 (4 variables)
+176 200 223 199 0
+-200 -176 0
+-223 -176 0
+-223 -200 0
+-199 -176 0
+-199 -200 0
+-199 -223 0
+c Exactly one constraints for square 3,13 (4 variables)
+129 153 176 152 0
+-153 -129 0
+-176 -129 0
+-176 -153 0
+-152 -129 0
+-152 -153 0
+-152 -176 0
+c Exactly one constraints for square 2,13 (4 variables)
+82 106 129 105 0
+-106 -82 0
+-129 -82 0
+-129 -106 0
+-105 -82 0
+-105 -106 0
+-105 -129 0
+c Exactly one constraints for square 1,13 (4 variables)
+35 59 82 58 0
+-59 -35 0
+-82 -35 0
+-82 -59 0
+-58 -35 0
+-58 -59 0
+-58 -82 0
+c Exactly one constraints for square 0,13 (3 variables)
+13 35 12 0
+-35 -13 0
+-12 -13 0
+-12 -35 0
+c Exactly one constraints for square 23,14 (3 variables)
+1070 1093 1092 0
+-1093 -1070 0
+-1092 -1070 0
+-1092 -1093 0
+c Exactly one constraints for square 22,14 (4 variables)
+1023 1047 1070 1046 0
+-1047 -1023 0
+-1070 -1023 0
+-1070 -1047 0
+-1046 -1023 0
+-1046 -1047 0
+-1046 -1070 0
+c Exactly one constraints for square 21,14 (4 variables)
+976 1000 1023 999 0
+-1000 -976 0
+-1023 -976 0
+-1023 -1000 0
+-999 -976 0
+-999 -1000 0
+-999 -1023 0
+c Exactly one constraints for square 20,14 (4 variables)
+929 953 976 952 0
+-953 -929 0
+-976 -929 0
+-976 -953 0
+-952 -929 0
+-952 -953 0
+-952 -976 0
+c Exactly one constraints for square 19,14 (4 variables)
+882 906 929 905 0
+-906 -882 0
+-929 -882 0
+-929 -906 0
+-905 -882 0
+-905 -906 0
+-905 -929 0
+c Exactly one constraints for square 18,14 (4 variables)
+835 859 882 858 0
+-859 -835 0
+-882 -835 0
+-882 -859 0
+-858 -835 0
+-858 -859 0
+-858 -882 0
+c Exactly one constraints for square 17,14 (4 variables)
+788 812 835 811 0
+-812 -788 0
+-835 -788 0
+-835 -812 0
+-811 -788 0
+-811 -812 0
+-811 -835 0
+c Exactly one constraints for square 16,14 (4 variables)
+741 765 788 764 0
+-765 -741 0
+-788 -741 0
+-788 -765 0
+-764 -741 0
+-764 -765 0
+-764 -788 0
+c Exactly one constraints for square 15,14 (4 variables)
+694 718 741 717 0
+-718 -694 0
+-741 -694 0
+-741 -718 0
+-717 -694 0
+-717 -718 0
+-717 -741 0
+c Exactly one constraints for square 14,14 (4 variables)
+647 671 694 670 0
+-671 -647 0
+-694 -647 0
+-694 -671 0
+-670 -647 0
+-670 -671 0
+-670 -694 0
+c Exactly one constraints for square 13,14 (4 variables)
+600 624 647 623 0
+-624 -600 0
+-647 -600 0
+-647 -624 0
+-623 -600 0
+-623 -624 0
+-623 -647 0
+c Exactly one constraints for square 12,14 (4 variables)
+553 577 600 576 0
+-577 -553 0
+-600 -553 0
+-600 -577 0
+-576 -553 0
+-576 -577 0
+-576 -600 0
+c Exactly one constraints for square 11,14 (4 variables)
+506 530 553 529 0
+-530 -506 0
+-553 -506 0
+-553 -530 0
+-529 -506 0
+-529 -530 0
+-529 -553 0
+c Exactly one constraints for square 10,14 (4 variables)
+459 483 506 482 0
+-483 -459 0
+-506 -459 0
+-506 -483 0
+-482 -459 0
+-482 -483 0
+-482 -506 0
+c Exactly one constraints for square 9,14 (4 variables)
+412 436 459 435 0
+-436 -412 0
+-459 -412 0
+-459 -436 0
+-435 -412 0
+-435 -436 0
+-435 -459 0
+c Exactly one constraints for square 8,14 (4 variables)
+365 389 412 388 0
+-389 -365 0
+-412 -365 0
+-412 -389 0
+-388 -365 0
+-388 -389 0
+-388 -412 0
+c Exactly one constraints for square 7,14 (4 variables)
+318 342 365 341 0
+-342 -318 0
+-365 -318 0
+-365 -342 0
+-341 -318 0
+-341 -342 0
+-341 -365 0
+c Exactly one constraints for square 6,14 (4 variables)
+271 295 318 294 0
+-295 -271 0
+-318 -271 0
+-318 -295 0
+-294 -271 0
+-294 -295 0
+-294 -318 0
+c Exactly one constraints for square 5,14 (4 variables)
+224 248 271 247 0
+-248 -224 0
+-271 -224 0
+-271 -248 0
+-247 -224 0
+-247 -248 0
+-247 -271 0
+c Exactly one constraints for square 4,14 (4 variables)
+177 201 224 200 0
+-201 -177 0
+-224 -177 0
+-224 -201 0
+-200 -177 0
+-200 -201 0
+-200 -224 0
+c Exactly one constraints for square 3,14 (4 variables)
+130 154 177 153 0
+-154 -130 0
+-177 -130 0
+-177 -154 0
+-153 -130 0
+-153 -154 0
+-153 -177 0
+c Exactly one constraints for square 2,14 (4 variables)
+83 107 130 106 0
+-107 -83 0
+-130 -83 0
+-130 -107 0
+-106 -83 0
+-106 -107 0
+-106 -130 0
+c Exactly one constraints for square 1,14 (4 variables)
+36 60 83 59 0
+-60 -36 0
+-83 -36 0
+-83 -60 0
+-59 -36 0
+-59 -60 0
+-59 -83 0
+c Exactly one constraints for square 0,14 (3 variables)
+14 36 13 0
+-36 -14 0
+-13 -14 0
+-13 -36 0
+c Exactly one constraints for square 23,15 (3 variables)
+1071 1094 1093 0
+-1094 -1071 0
+-1093 -1071 0
+-1093 -1094 0
+c Exactly one constraints for square 22,15 (4 variables)
+1024 1048 1071 1047 0
+-1048 -1024 0
+-1071 -1024 0
+-1071 -1048 0
+-1047 -1024 0
+-1047 -1048 0
+-1047 -1071 0
+c Exactly one constraints for square 21,15 (4 variables)
+977 1001 1024 1000 0
+-1001 -977 0
+-1024 -977 0
+-1024 -1001 0
+-1000 -977 0
+-1000 -1001 0
+-1000 -1024 0
+c Exactly one constraints for square 20,15 (4 variables)
+930 954 977 953 0
+-954 -930 0
+-977 -930 0
+-977 -954 0
+-953 -930 0
+-953 -954 0
+-953 -977 0
+c Exactly one constraints for square 19,15 (4 variables)
+883 907 930 906 0
+-907 -883 0
+-930 -883 0
+-930 -907 0
+-906 -883 0
+-906 -907 0
+-906 -930 0
+c Exactly one constraints for square 18,15 (4 variables)
+836 860 883 859 0
+-860 -836 0
+-883 -836 0
+-883 -860 0
+-859 -836 0
+-859 -860 0
+-859 -883 0
+c Exactly one constraints for square 17,15 (4 variables)
+789 813 836 812 0
+-813 -789 0
+-836 -789 0
+-836 -813 0
+-812 -789 0
+-812 -813 0
+-812 -836 0
+c Exactly one constraints for square 16,15 (4 variables)
+742 766 789 765 0
+-766 -742 0
+-789 -742 0
+-789 -766 0
+-765 -742 0
+-765 -766 0
+-765 -789 0
+c Exactly one constraints for square 15,15 (4 variables)
+695 719 742 718 0
+-719 -695 0
+-742 -695 0
+-742 -719 0
+-718 -695 0
+-718 -719 0
+-718 -742 0
+c Exactly one constraints for square 14,15 (4 variables)
+648 672 695 671 0
+-672 -648 0
+-695 -648 0
+-695 -672 0
+-671 -648 0
+-671 -672 0
+-671 -695 0
+c Exactly one constraints for square 13,15 (4 variables)
+601 625 648 624 0
+-625 -601 0
+-648 -601 0
+-648 -625 0
+-624 -601 0
+-624 -625 0
+-624 -648 0
+c Exactly one constraints for square 12,15 (4 variables)
+554 578 601 577 0
+-578 -554 0
+-601 -554 0
+-601 -578 0
+-577 -554 0
+-577 -578 0
+-577 -601 0
+c Exactly one constraints for square 11,15 (4 variables)
+507 531 554 530 0
+-531 -507 0
+-554 -507 0
+-554 -531 0
+-530 -507 0
+-530 -531 0
+-530 -554 0
+c Exactly one constraints for square 10,15 (4 variables)
+460 484 507 483 0
+-484 -460 0
+-507 -460 0
+-507 -484 0
+-483 -460 0
+-483 -484 0
+-483 -507 0
+c Exactly one constraints for square 9,15 (4 variables)
+413 437 460 436 0
+-437 -413 0
+-460 -413 0
+-460 -437 0
+-436 -413 0
+-436 -437 0
+-436 -460 0
+c Exactly one constraints for square 8,15 (4 variables)
+366 390 413 389 0
+-390 -366 0
+-413 -366 0
+-413 -390 0
+-389 -366 0
+-389 -390 0
+-389 -413 0
+c Exactly one constraints for square 7,15 (4 variables)
+319 343 366 342 0
+-343 -319 0
+-366 -319 0
+-366 -343 0
+-342 -319 0
+-342 -343 0
+-342 -366 0
+c Exactly one constraints for square 6,15 (4 variables)
+272 296 319 295 0
+-296 -272 0
+-319 -272 0
+-319 -296 0
+-295 -272 0
+-295 -296 0
+-295 -319 0
+c Exactly one constraints for square 5,15 (4 variables)
+225 249 272 248 0
+-249 -225 0
+-272 -225 0
+-272 -249 0
+-248 -225 0
+-248 -249 0
+-248 -272 0
+c Exactly one constraints for square 4,15 (4 variables)
+178 202 225 201 0
+-202 -178 0
+-225 -178 0
+-225 -202 0
+-201 -178 0
+-201 -202 0
+-201 -225 0
+c Exactly one constraints for square 3,15 (4 variables)
+131 155 178 154 0
+-155 -131 0
+-178 -131 0
+-178 -155 0
+-154 -131 0
+-154 -155 0
+-154 -178 0
+c Exactly one constraints for square 2,15 (4 variables)
+84 108 131 107 0
+-108 -84 0
+-131 -84 0
+-131 -108 0
+-107 -84 0
+-107 -108 0
+-107 -131 0
+c Exactly one constraints for square 1,15 (4 variables)
+37 61 84 60 0
+-61 -37 0
+-84 -37 0
+-84 -61 0
+-60 -37 0
+-60 -61 0
+-60 -84 0
+c Exactly one constraints for square 0,15 (3 variables)
+15 37 14 0
+-37 -15 0
+-14 -15 0
+-14 -37 0
+c Exactly one constraints for square 23,16 (3 variables)
+1072 1095 1094 0
+-1095 -1072 0
+-1094 -1072 0
+-1094 -1095 0
+c Exactly one constraints for square 22,16 (4 variables)
+1025 1049 1072 1048 0
+-1049 -1025 0
+-1072 -1025 0
+-1072 -1049 0
+-1048 -1025 0
+-1048 -1049 0
+-1048 -1072 0
+c Exactly one constraints for square 21,16 (4 variables)
+978 1002 1025 1001 0
+-1002 -978 0
+-1025 -978 0
+-1025 -1002 0
+-1001 -978 0
+-1001 -1002 0
+-1001 -1025 0
+c Exactly one constraints for square 20,16 (4 variables)
+931 955 978 954 0
+-955 -931 0
+-978 -931 0
+-978 -955 0
+-954 -931 0
+-954 -955 0
+-954 -978 0
+c Exactly one constraints for square 19,16 (4 variables)
+884 908 931 907 0
+-908 -884 0
+-931 -884 0
+-931 -908 0
+-907 -884 0
+-907 -908 0
+-907 -931 0
+c Exactly one constraints for square 18,16 (4 variables)
+837 861 884 860 0
+-861 -837 0
+-884 -837 0
+-884 -861 0
+-860 -837 0
+-860 -861 0
+-860 -884 0
+c Exactly one constraints for square 17,16 (4 variables)
+790 814 837 813 0
+-814 -790 0
+-837 -790 0
+-837 -814 0
+-813 -790 0
+-813 -814 0
+-813 -837 0
+c Exactly one constraints for square 16,16 (4 variables)
+743 767 790 766 0
+-767 -743 0
+-790 -743 0
+-790 -767 0
+-766 -743 0
+-766 -767 0
+-766 -790 0
+c Exactly one constraints for square 15,16 (4 variables)
+696 720 743 719 0
+-720 -696 0
+-743 -696 0
+-743 -720 0
+-719 -696 0
+-719 -720 0
+-719 -743 0
+c Exactly one constraints for square 14,16 (4 variables)
+649 673 696 672 0
+-673 -649 0
+-696 -649 0
+-696 -673 0
+-672 -649 0
+-672 -673 0
+-672 -696 0
+c Exactly one constraints for square 13,16 (4 variables)
+602 626 649 625 0
+-626 -602 0
+-649 -602 0
+-649 -626 0
+-625 -602 0
+-625 -626 0
+-625 -649 0
+c Exactly one constraints for square 12,16 (4 variables)
+555 579 602 578 0
+-579 -555 0
+-602 -555 0
+-602 -579 0
+-578 -555 0
+-578 -579 0
+-578 -602 0
+c Exactly one constraints for square 11,16 (4 variables)
+508 532 555 531 0
+-532 -508 0
+-555 -508 0
+-555 -532 0
+-531 -508 0
+-531 -532 0
+-531 -555 0
+c Exactly one constraints for square 10,16 (4 variables)
+461 485 508 484 0
+-485 -461 0
+-508 -461 0
+-508 -485 0
+-484 -461 0
+-484 -485 0
+-484 -508 0
+c Exactly one constraints for square 9,16 (4 variables)
+414 438 461 437 0
+-438 -414 0
+-461 -414 0
+-461 -438 0
+-437 -414 0
+-437 -438 0
+-437 -461 0
+c Exactly one constraints for square 8,16 (4 variables)
+367 391 414 390 0
+-391 -367 0
+-414 -367 0
+-414 -391 0
+-390 -367 0
+-390 -391 0
+-390 -414 0
+c Exactly one constraints for square 7,16 (4 variables)
+320 344 367 343 0
+-344 -320 0
+-367 -320 0
+-367 -344 0
+-343 -320 0
+-343 -344 0
+-343 -367 0
+c Exactly one constraints for square 6,16 (4 variables)
+273 297 320 296 0
+-297 -273 0
+-320 -273 0
+-320 -297 0
+-296 -273 0
+-296 -297 0
+-296 -320 0
+c Exactly one constraints for square 5,16 (4 variables)
+226 250 273 249 0
+-250 -226 0
+-273 -226 0
+-273 -250 0
+-249 -226 0
+-249 -250 0
+-249 -273 0
+c Exactly one constraints for square 4,16 (4 variables)
+179 203 226 202 0
+-203 -179 0
+-226 -179 0
+-226 -203 0
+-202 -179 0
+-202 -203 0
+-202 -226 0
+c Exactly one constraints for square 3,16 (4 variables)
+132 156 179 155 0
+-156 -132 0
+-179 -132 0
+-179 -156 0
+-155 -132 0
+-155 -156 0
+-155 -179 0
+c Exactly one constraints for square 2,16 (4 variables)
+85 109 132 108 0
+-109 -85 0
+-132 -85 0
+-132 -109 0
+-108 -85 0
+-108 -109 0
+-108 -132 0
+c Exactly one constraints for square 1,16 (4 variables)
+38 62 85 61 0
+-62 -38 0
+-85 -38 0
+-85 -62 0
+-61 -38 0
+-61 -62 0
+-61 -85 0
+c Exactly one constraints for square 0,16 (3 variables)
+16 38 15 0
+-38 -16 0
+-15 -16 0
+-15 -38 0
+c Exactly one constraints for square 23,17 (3 variables)
+1073 1096 1095 0
+-1096 -1073 0
+-1095 -1073 0
+-1095 -1096 0
+c Exactly one constraints for square 22,17 (4 variables)
+1026 1050 1073 1049 0
+-1050 -1026 0
+-1073 -1026 0
+-1073 -1050 0
+-1049 -1026 0
+-1049 -1050 0
+-1049 -1073 0
+c Exactly one constraints for square 21,17 (4 variables)
+979 1003 1026 1002 0
+-1003 -979 0
+-1026 -979 0
+-1026 -1003 0
+-1002 -979 0
+-1002 -1003 0
+-1002 -1026 0
+c Exactly one constraints for square 20,17 (4 variables)
+932 956 979 955 0
+-956 -932 0
+-979 -932 0
+-979 -956 0
+-955 -932 0
+-955 -956 0
+-955 -979 0
+c Exactly one constraints for square 19,17 (4 variables)
+885 909 932 908 0
+-909 -885 0
+-932 -885 0
+-932 -909 0
+-908 -885 0
+-908 -909 0
+-908 -932 0
+c Exactly one constraints for square 18,17 (4 variables)
+838 862 885 861 0
+-862 -838 0
+-885 -838 0
+-885 -862 0
+-861 -838 0
+-861 -862 0
+-861 -885 0
+c Exactly one constraints for square 17,17 (4 variables)
+791 815 838 814 0
+-815 -791 0
+-838 -791 0
+-838 -815 0
+-814 -791 0
+-814 -815 0
+-814 -838 0
+c Exactly one constraints for square 16,17 (4 variables)
+744 768 791 767 0
+-768 -744 0
+-791 -744 0
+-791 -768 0
+-767 -744 0
+-767 -768 0
+-767 -791 0
+c Exactly one constraints for square 15,17 (4 variables)
+697 721 744 720 0
+-721 -697 0
+-744 -697 0
+-744 -721 0
+-720 -697 0
+-720 -721 0
+-720 -744 0
+c Exactly one constraints for square 14,17 (4 variables)
+650 674 697 673 0
+-674 -650 0
+-697 -650 0
+-697 -674 0
+-673 -650 0
+-673 -674 0
+-673 -697 0
+c Exactly one constraints for square 13,17 (4 variables)
+603 627 650 626 0
+-627 -603 0
+-650 -603 0
+-650 -627 0
+-626 -603 0
+-626 -627 0
+-626 -650 0
+c Exactly one constraints for square 12,17 (4 variables)
+556 580 603 579 0
+-580 -556 0
+-603 -556 0
+-603 -580 0
+-579 -556 0
+-579 -580 0
+-579 -603 0
+c Exactly one constraints for square 11,17 (4 variables)
+509 533 556 532 0
+-533 -509 0
+-556 -509 0
+-556 -533 0
+-532 -509 0
+-532 -533 0
+-532 -556 0
+c Exactly one constraints for square 10,17 (4 variables)
+462 486 509 485 0
+-486 -462 0
+-509 -462 0
+-509 -486 0
+-485 -462 0
+-485 -486 0
+-485 -509 0
+c Exactly one constraints for square 9,17 (4 variables)
+415 439 462 438 0
+-439 -415 0
+-462 -415 0
+-462 -439 0
+-438 -415 0
+-438 -439 0
+-438 -462 0
+c Exactly one constraints for square 8,17 (4 variables)
+368 392 415 391 0
+-392 -368 0
+-415 -368 0
+-415 -392 0
+-391 -368 0
+-391 -392 0
+-391 -415 0
+c Exactly one constraints for square 7,17 (4 variables)
+321 345 368 344 0
+-345 -321 0
+-368 -321 0
+-368 -345 0
+-344 -321 0
+-344 -345 0
+-344 -368 0
+c Exactly one constraints for square 6,17 (4 variables)
+274 298 321 297 0
+-298 -274 0
+-321 -274 0
+-321 -298 0
+-297 -274 0
+-297 -298 0
+-297 -321 0
+c Exactly one constraints for square 5,17 (4 variables)
+227 251 274 250 0
+-251 -227 0
+-274 -227 0
+-274 -251 0
+-250 -227 0
+-250 -251 0
+-250 -274 0
+c Exactly one constraints for square 4,17 (4 variables)
+180 204 227 203 0
+-204 -180 0
+-227 -180 0
+-227 -204 0
+-203 -180 0
+-203 -204 0
+-203 -227 0
+c Exactly one constraints for square 3,17 (4 variables)
+133 157 180 156 0
+-157 -133 0
+-180 -133 0
+-180 -157 0
+-156 -133 0
+-156 -157 0
+-156 -180 0
+c Exactly one constraints for square 2,17 (4 variables)
+86 110 133 109 0
+-110 -86 0
+-133 -86 0
+-133 -110 0
+-109 -86 0
+-109 -110 0
+-109 -133 0
+c Exactly one constraints for square 1,17 (4 variables)
+39 63 86 62 0
+-63 -39 0
+-86 -39 0
+-86 -63 0
+-62 -39 0
+-62 -63 0
+-62 -86 0
+c Exactly one constraints for square 0,17 (3 variables)
+17 39 16 0
+-39 -17 0
+-16 -17 0
+-16 -39 0
+c Exactly one constraints for square 23,18 (3 variables)
+1074 1097 1096 0
+-1097 -1074 0
+-1096 -1074 0
+-1096 -1097 0
+c Exactly one constraints for square 22,18 (4 variables)
+1027 1051 1074 1050 0
+-1051 -1027 0
+-1074 -1027 0
+-1074 -1051 0
+-1050 -1027 0
+-1050 -1051 0
+-1050 -1074 0
+c Exactly one constraints for square 21,18 (4 variables)
+980 1004 1027 1003 0
+-1004 -980 0
+-1027 -980 0
+-1027 -1004 0
+-1003 -980 0
+-1003 -1004 0
+-1003 -1027 0
+c Exactly one constraints for square 20,18 (4 variables)
+933 957 980 956 0
+-957 -933 0
+-980 -933 0
+-980 -957 0
+-956 -933 0
+-956 -957 0
+-956 -980 0
+c Exactly one constraints for square 19,18 (4 variables)
+886 910 933 909 0
+-910 -886 0
+-933 -886 0
+-933 -910 0
+-909 -886 0
+-909 -910 0
+-909 -933 0
+c Exactly one constraints for square 18,18 (4 variables)
+839 863 886 862 0
+-863 -839 0
+-886 -839 0
+-886 -863 0
+-862 -839 0
+-862 -863 0
+-862 -886 0
+c Exactly one constraints for square 17,18 (4 variables)
+792 816 839 815 0
+-816 -792 0
+-839 -792 0
+-839 -816 0
+-815 -792 0
+-815 -816 0
+-815 -839 0
+c Exactly one constraints for square 16,18 (4 variables)
+745 769 792 768 0
+-769 -745 0
+-792 -745 0
+-792 -769 0
+-768 -745 0
+-768 -769 0
+-768 -792 0
+c Exactly one constraints for square 15,18 (4 variables)
+698 722 745 721 0
+-722 -698 0
+-745 -698 0
+-745 -722 0
+-721 -698 0
+-721 -722 0
+-721 -745 0
+c Exactly one constraints for square 14,18 (4 variables)
+651 675 698 674 0
+-675 -651 0
+-698 -651 0
+-698 -675 0
+-674 -651 0
+-674 -675 0
+-674 -698 0
+c Exactly one constraints for square 13,18 (4 variables)
+604 628 651 627 0
+-628 -604 0
+-651 -604 0
+-651 -628 0
+-627 -604 0
+-627 -628 0
+-627 -651 0
+c Exactly one constraints for square 12,18 (4 variables)
+557 581 604 580 0
+-581 -557 0
+-604 -557 0
+-604 -581 0
+-580 -557 0
+-580 -581 0
+-580 -604 0
+c Exactly one constraints for square 11,18 (4 variables)
+510 534 557 533 0
+-534 -510 0
+-557 -510 0
+-557 -534 0
+-533 -510 0
+-533 -534 0
+-533 -557 0
+c Exactly one constraints for square 10,18 (4 variables)
+463 487 510 486 0
+-487 -463 0
+-510 -463 0
+-510 -487 0
+-486 -463 0
+-486 -487 0
+-486 -510 0
+c Exactly one constraints for square 9,18 (4 variables)
+416 440 463 439 0
+-440 -416 0
+-463 -416 0
+-463 -440 0
+-439 -416 0
+-439 -440 0
+-439 -463 0
+c Exactly one constraints for square 8,18 (4 variables)
+369 393 416 392 0
+-393 -369 0
+-416 -369 0
+-416 -393 0
+-392 -369 0
+-392 -393 0
+-392 -416 0
+c Exactly one constraints for square 7,18 (4 variables)
+322 346 369 345 0
+-346 -322 0
+-369 -322 0
+-369 -346 0
+-345 -322 0
+-345 -346 0
+-345 -369 0
+c Exactly one constraints for square 6,18 (4 variables)
+275 299 322 298 0
+-299 -275 0
+-322 -275 0
+-322 -299 0
+-298 -275 0
+-298 -299 0
+-298 -322 0
+c Exactly one constraints for square 5,18 (4 variables)
+228 252 275 251 0
+-252 -228 0
+-275 -228 0
+-275 -252 0
+-251 -228 0
+-251 -252 0
+-251 -275 0
+c Exactly one constraints for square 4,18 (4 variables)
+181 205 228 204 0
+-205 -181 0
+-228 -181 0
+-228 -205 0
+-204 -181 0
+-204 -205 0
+-204 -228 0
+c Exactly one constraints for square 3,18 (4 variables)
+134 158 181 157 0
+-158 -134 0
+-181 -134 0
+-181 -158 0
+-157 -134 0
+-157 -158 0
+-157 -181 0
+c Exactly one constraints for square 2,18 (4 variables)
+87 111 134 110 0
+-111 -87 0
+-134 -87 0
+-134 -111 0
+-110 -87 0
+-110 -111 0
+-110 -134 0
+c Exactly one constraints for square 1,18 (4 variables)
+40 64 87 63 0
+-64 -40 0
+-87 -40 0
+-87 -64 0
+-63 -40 0
+-63 -64 0
+-63 -87 0
+c Exactly one constraints for square 0,18 (3 variables)
+18 40 17 0
+-40 -18 0
+-17 -18 0
+-17 -40 0
+c Exactly one constraints for square 23,19 (3 variables)
+1075 1098 1097 0
+-1098 -1075 0
+-1097 -1075 0
+-1097 -1098 0
+c Exactly one constraints for square 22,19 (4 variables)
+1028 1052 1075 1051 0
+-1052 -1028 0
+-1075 -1028 0
+-1075 -1052 0
+-1051 -1028 0
+-1051 -1052 0
+-1051 -1075 0
+c Exactly one constraints for square 21,19 (4 variables)
+981 1005 1028 1004 0
+-1005 -981 0
+-1028 -981 0
+-1028 -1005 0
+-1004 -981 0
+-1004 -1005 0
+-1004 -1028 0
+c Exactly one constraints for square 20,19 (4 variables)
+934 958 981 957 0
+-958 -934 0
+-981 -934 0
+-981 -958 0
+-957 -934 0
+-957 -958 0
+-957 -981 0
+c Exactly one constraints for square 19,19 (4 variables)
+887 911 934 910 0
+-911 -887 0
+-934 -887 0
+-934 -911 0
+-910 -887 0
+-910 -911 0
+-910 -934 0
+c Exactly one constraints for square 18,19 (4 variables)
+840 864 887 863 0
+-864 -840 0
+-887 -840 0
+-887 -864 0
+-863 -840 0
+-863 -864 0
+-863 -887 0
+c Exactly one constraints for square 17,19 (4 variables)
+793 817 840 816 0
+-817 -793 0
+-840 -793 0
+-840 -817 0
+-816 -793 0
+-816 -817 0
+-816 -840 0
+c Exactly one constraints for square 16,19 (4 variables)
+746 770 793 769 0
+-770 -746 0
+-793 -746 0
+-793 -770 0
+-769 -746 0
+-769 -770 0
+-769 -793 0
+c Exactly one constraints for square 15,19 (4 variables)
+699 723 746 722 0
+-723 -699 0
+-746 -699 0
+-746 -723 0
+-722 -699 0
+-722 -723 0
+-722 -746 0
+c Exactly one constraints for square 14,19 (4 variables)
+652 676 699 675 0
+-676 -652 0
+-699 -652 0
+-699 -676 0
+-675 -652 0
+-675 -676 0
+-675 -699 0
+c Exactly one constraints for square 13,19 (4 variables)
+605 629 652 628 0
+-629 -605 0
+-652 -605 0
+-652 -629 0
+-628 -605 0
+-628 -629 0
+-628 -652 0
+c Exactly one constraints for square 12,19 (4 variables)
+558 582 605 581 0
+-582 -558 0
+-605 -558 0
+-605 -582 0
+-581 -558 0
+-581 -582 0
+-581 -605 0
+c Exactly one constraints for square 11,19 (4 variables)
+511 535 558 534 0
+-535 -511 0
+-558 -511 0
+-558 -535 0
+-534 -511 0
+-534 -535 0
+-534 -558 0
+c Exactly one constraints for square 10,19 (4 variables)
+464 488 511 487 0
+-488 -464 0
+-511 -464 0
+-511 -488 0
+-487 -464 0
+-487 -488 0
+-487 -511 0
+c Exactly one constraints for square 9,19 (4 variables)
+417 441 464 440 0
+-441 -417 0
+-464 -417 0
+-464 -441 0
+-440 -417 0
+-440 -441 0
+-440 -464 0
+c Exactly one constraints for square 8,19 (4 variables)
+370 394 417 393 0
+-394 -370 0
+-417 -370 0
+-417 -394 0
+-393 -370 0
+-393 -394 0
+-393 -417 0
+c Exactly one constraints for square 7,19 (4 variables)
+323 347 370 346 0
+-347 -323 0
+-370 -323 0
+-370 -347 0
+-346 -323 0
+-346 -347 0
+-346 -370 0
+c Exactly one constraints for square 6,19 (4 variables)
+276 300 323 299 0
+-300 -276 0
+-323 -276 0
+-323 -300 0
+-299 -276 0
+-299 -300 0
+-299 -323 0
+c Exactly one constraints for square 5,19 (4 variables)
+229 253 276 252 0
+-253 -229 0
+-276 -229 0
+-276 -253 0
+-252 -229 0
+-252 -253 0
+-252 -276 0
+c Exactly one constraints for square 4,19 (4 variables)
+182 206 229 205 0
+-206 -182 0
+-229 -182 0
+-229 -206 0
+-205 -182 0
+-205 -206 0
+-205 -229 0
+c Exactly one constraints for square 3,19 (4 variables)
+135 159 182 158 0
+-159 -135 0
+-182 -135 0
+-182 -159 0
+-158 -135 0
+-158 -159 0
+-158 -182 0
+c Exactly one constraints for square 2,19 (4 variables)
+88 112 135 111 0
+-112 -88 0
+-135 -88 0
+-135 -112 0
+-111 -88 0
+-111 -112 0
+-111 -135 0
+c Exactly one constraints for square 1,19 (4 variables)
+41 65 88 64 0
+-65 -41 0
+-88 -41 0
+-88 -65 0
+-64 -41 0
+-64 -65 0
+-64 -88 0
+c Exactly one constraints for square 0,19 (3 variables)
+19 41 18 0
+-41 -19 0
+-18 -19 0
+-18 -41 0
+c Exactly one constraints for square 23,20 (3 variables)
+1076 1099 1098 0
+-1099 -1076 0
+-1098 -1076 0
+-1098 -1099 0
+c Exactly one constraints for square 22,20 (4 variables)
+1029 1053 1076 1052 0
+-1053 -1029 0
+-1076 -1029 0
+-1076 -1053 0
+-1052 -1029 0
+-1052 -1053 0
+-1052 -1076 0
+c Exactly one constraints for square 21,20 (4 variables)
+982 1006 1029 1005 0
+-1006 -982 0
+-1029 -982 0
+-1029 -1006 0
+-1005 -982 0
+-1005 -1006 0
+-1005 -1029 0
+c Exactly one constraints for square 20,20 (4 variables)
+935 959 982 958 0
+-959 -935 0
+-982 -935 0
+-982 -959 0
+-958 -935 0
+-958 -959 0
+-958 -982 0
+c Exactly one constraints for square 19,20 (4 variables)
+888 912 935 911 0
+-912 -888 0
+-935 -888 0
+-935 -912 0
+-911 -888 0
+-911 -912 0
+-911 -935 0
+c Exactly one constraints for square 18,20 (4 variables)
+841 865 888 864 0
+-865 -841 0
+-888 -841 0
+-888 -865 0
+-864 -841 0
+-864 -865 0
+-864 -888 0
+c Exactly one constraints for square 17,20 (4 variables)
+794 818 841 817 0
+-818 -794 0
+-841 -794 0
+-841 -818 0
+-817 -794 0
+-817 -818 0
+-817 -841 0
+c Exactly one constraints for square 16,20 (4 variables)
+747 771 794 770 0
+-771 -747 0
+-794 -747 0
+-794 -771 0
+-770 -747 0
+-770 -771 0
+-770 -794 0
+c Exactly one constraints for square 15,20 (4 variables)
+700 724 747 723 0
+-724 -700 0
+-747 -700 0
+-747 -724 0
+-723 -700 0
+-723 -724 0
+-723 -747 0
+c Exactly one constraints for square 14,20 (4 variables)
+653 677 700 676 0
+-677 -653 0
+-700 -653 0
+-700 -677 0
+-676 -653 0
+-676 -677 0
+-676 -700 0
+c Exactly one constraints for square 13,20 (4 variables)
+606 630 653 629 0
+-630 -606 0
+-653 -606 0
+-653 -630 0
+-629 -606 0
+-629 -630 0
+-629 -653 0
+c Exactly one constraints for square 12,20 (4 variables)
+559 583 606 582 0
+-583 -559 0
+-606 -559 0
+-606 -583 0
+-582 -559 0
+-582 -583 0
+-582 -606 0
+c Exactly one constraints for square 11,20 (4 variables)
+512 536 559 535 0
+-536 -512 0
+-559 -512 0
+-559 -536 0
+-535 -512 0
+-535 -536 0
+-535 -559 0
+c Exactly one constraints for square 10,20 (4 variables)
+465 489 512 488 0
+-489 -465 0
+-512 -465 0
+-512 -489 0
+-488 -465 0
+-488 -489 0
+-488 -512 0
+c Exactly one constraints for square 9,20 (4 variables)
+418 442 465 441 0
+-442 -418 0
+-465 -418 0
+-465 -442 0
+-441 -418 0
+-441 -442 0
+-441 -465 0
+c Exactly one constraints for square 8,20 (4 variables)
+371 395 418 394 0
+-395 -371 0
+-418 -371 0
+-418 -395 0
+-394 -371 0
+-394 -395 0
+-394 -418 0
+c Exactly one constraints for square 7,20 (4 variables)
+324 348 371 347 0
+-348 -324 0
+-371 -324 0
+-371 -348 0
+-347 -324 0
+-347 -348 0
+-347 -371 0
+c Exactly one constraints for square 6,20 (4 variables)
+277 301 324 300 0
+-301 -277 0
+-324 -277 0
+-324 -301 0
+-300 -277 0
+-300 -301 0
+-300 -324 0
+c Exactly one constraints for square 5,20 (4 variables)
+230 254 277 253 0
+-254 -230 0
+-277 -230 0
+-277 -254 0
+-253 -230 0
+-253 -254 0
+-253 -277 0
+c Exactly one constraints for square 4,20 (4 variables)
+183 207 230 206 0
+-207 -183 0
+-230 -183 0
+-230 -207 0
+-206 -183 0
+-206 -207 0
+-206 -230 0
+c Exactly one constraints for square 3,20 (4 variables)
+136 160 183 159 0
+-160 -136 0
+-183 -136 0
+-183 -160 0
+-159 -136 0
+-159 -160 0
+-159 -183 0
+c Exactly one constraints for square 2,20 (4 variables)
+89 113 136 112 0
+-113 -89 0
+-136 -89 0
+-136 -113 0
+-112 -89 0
+-112 -113 0
+-112 -136 0
+c Exactly one constraints for square 1,20 (4 variables)
+42 66 89 65 0
+-66 -42 0
+-89 -42 0
+-89 -66 0
+-65 -42 0
+-65 -66 0
+-65 -89 0
+c Exactly one constraints for square 0,20 (3 variables)
+20 42 19 0
+-42 -20 0
+-19 -20 0
+-19 -42 0
+c Exactly one constraints for square 23,21 (3 variables)
+1077 1100 1099 0
+-1100 -1077 0
+-1099 -1077 0
+-1099 -1100 0
+c Exactly one constraints for square 22,21 (4 variables)
+1030 1054 1077 1053 0
+-1054 -1030 0
+-1077 -1030 0
+-1077 -1054 0
+-1053 -1030 0
+-1053 -1054 0
+-1053 -1077 0
+c Exactly one constraints for square 21,21 (4 variables)
+983 1007 1030 1006 0
+-1007 -983 0
+-1030 -983 0
+-1030 -1007 0
+-1006 -983 0
+-1006 -1007 0
+-1006 -1030 0
+c Exactly one constraints for square 20,21 (4 variables)
+936 960 983 959 0
+-960 -936 0
+-983 -936 0
+-983 -960 0
+-959 -936 0
+-959 -960 0
+-959 -983 0
+c Exactly one constraints for square 19,21 (4 variables)
+889 913 936 912 0
+-913 -889 0
+-936 -889 0
+-936 -913 0
+-912 -889 0
+-912 -913 0
+-912 -936 0
+c Exactly one constraints for square 18,21 (4 variables)
+842 866 889 865 0
+-866 -842 0
+-889 -842 0
+-889 -866 0
+-865 -842 0
+-865 -866 0
+-865 -889 0
+c Exactly one constraints for square 17,21 (4 variables)
+795 819 842 818 0
+-819 -795 0
+-842 -795 0
+-842 -819 0
+-818 -795 0
+-818 -819 0
+-818 -842 0
+c Exactly one constraints for square 16,21 (4 variables)
+748 772 795 771 0
+-772 -748 0
+-795 -748 0
+-795 -772 0
+-771 -748 0
+-771 -772 0
+-771 -795 0
+c Exactly one constraints for square 15,21 (4 variables)
+701 725 748 724 0
+-725 -701 0
+-748 -701 0
+-748 -725 0
+-724 -701 0
+-724 -725 0
+-724 -748 0
+c Exactly one constraints for square 14,21 (4 variables)
+654 678 701 677 0
+-678 -654 0
+-701 -654 0
+-701 -678 0
+-677 -654 0
+-677 -678 0
+-677 -701 0
+c Exactly one constraints for square 13,21 (4 variables)
+607 631 654 630 0
+-631 -607 0
+-654 -607 0
+-654 -631 0
+-630 -607 0
+-630 -631 0
+-630 -654 0
+c Exactly one constraints for square 12,21 (4 variables)
+560 584 607 583 0
+-584 -560 0
+-607 -560 0
+-607 -584 0
+-583 -560 0
+-583 -584 0
+-583 -607 0
+c Exactly one constraints for square 11,21 (4 variables)
+513 537 560 536 0
+-537 -513 0
+-560 -513 0
+-560 -537 0
+-536 -513 0
+-536 -537 0
+-536 -560 0
+c Exactly one constraints for square 10,21 (4 variables)
+466 490 513 489 0
+-490 -466 0
+-513 -466 0
+-513 -490 0
+-489 -466 0
+-489 -490 0
+-489 -513 0
+c Exactly one constraints for square 9,21 (4 variables)
+419 443 466 442 0
+-443 -419 0
+-466 -419 0
+-466 -443 0
+-442 -419 0
+-442 -443 0
+-442 -466 0
+c Exactly one constraints for square 8,21 (4 variables)
+372 396 419 395 0
+-396 -372 0
+-419 -372 0
+-419 -396 0
+-395 -372 0
+-395 -396 0
+-395 -419 0
+c Exactly one constraints for square 7,21 (4 variables)
+325 349 372 348 0
+-349 -325 0
+-372 -325 0
+-372 -349 0
+-348 -325 0
+-348 -349 0
+-348 -372 0
+c Exactly one constraints for square 6,21 (4 variables)
+278 302 325 301 0
+-302 -278 0
+-325 -278 0
+-325 -302 0
+-301 -278 0
+-301 -302 0
+-301 -325 0
+c Exactly one constraints for square 5,21 (4 variables)
+231 255 278 254 0
+-255 -231 0
+-278 -231 0
+-278 -255 0
+-254 -231 0
+-254 -255 0
+-254 -278 0
+c Exactly one constraints for square 4,21 (4 variables)
+184 208 231 207 0
+-208 -184 0
+-231 -184 0
+-231 -208 0
+-207 -184 0
+-207 -208 0
+-207 -231 0
+c Exactly one constraints for square 3,21 (4 variables)
+137 161 184 160 0
+-161 -137 0
+-184 -137 0
+-184 -161 0
+-160 -137 0
+-160 -161 0
+-160 -184 0
+c Exactly one constraints for square 2,21 (4 variables)
+90 114 137 113 0
+-114 -90 0
+-137 -90 0
+-137 -114 0
+-113 -90 0
+-113 -114 0
+-113 -137 0
+c Exactly one constraints for square 1,21 (4 variables)
+43 67 90 66 0
+-67 -43 0
+-90 -43 0
+-90 -67 0
+-66 -43 0
+-66 -67 0
+-66 -90 0
+c Exactly one constraints for square 0,21 (3 variables)
+21 43 20 0
+-43 -21 0
+-20 -21 0
+-20 -43 0
+c Exactly one constraints for square 23,22 (2 variables)
+1078 1100 0
+-1100 -1078 0
+c Exactly one constraints for square 22,22 (4 variables)
+1031 1055 1078 1054 0
+-1055 -1031 0
+-1078 -1031 0
+-1078 -1055 0
+-1054 -1031 0
+-1054 -1055 0
+-1054 -1078 0
+c Exactly one constraints for square 21,22 (4 variables)
+984 1008 1031 1007 0
+-1008 -984 0
+-1031 -984 0
+-1031 -1008 0
+-1007 -984 0
+-1007 -1008 0
+-1007 -1031 0
+c Exactly one constraints for square 20,22 (4 variables)
+937 961 984 960 0
+-961 -937 0
+-984 -937 0
+-984 -961 0
+-960 -937 0
+-960 -961 0
+-960 -984 0
+c Exactly one constraints for square 19,22 (4 variables)
+890 914 937 913 0
+-914 -890 0
+-937 -890 0
+-937 -914 0
+-913 -890 0
+-913 -914 0
+-913 -937 0
+c Exactly one constraints for square 18,22 (4 variables)
+843 867 890 866 0
+-867 -843 0
+-890 -843 0
+-890 -867 0
+-866 -843 0
+-866 -867 0
+-866 -890 0
+c Exactly one constraints for square 17,22 (4 variables)
+796 820 843 819 0
+-820 -796 0
+-843 -796 0
+-843 -820 0
+-819 -796 0
+-819 -820 0
+-819 -843 0
+c Exactly one constraints for square 16,22 (4 variables)
+749 773 796 772 0
+-773 -749 0
+-796 -749 0
+-796 -773 0
+-772 -749 0
+-772 -773 0
+-772 -796 0
+c Exactly one constraints for square 15,22 (4 variables)
+702 726 749 725 0
+-726 -702 0
+-749 -702 0
+-749 -726 0
+-725 -702 0
+-725 -726 0
+-725 -749 0
+c Exactly one constraints for square 14,22 (4 variables)
+655 679 702 678 0
+-679 -655 0
+-702 -655 0
+-702 -679 0
+-678 -655 0
+-678 -679 0
+-678 -702 0
+c Exactly one constraints for square 13,22 (4 variables)
+608 632 655 631 0
+-632 -608 0
+-655 -608 0
+-655 -632 0
+-631 -608 0
+-631 -632 0
+-631 -655 0
+c Exactly one constraints for square 12,22 (4 variables)
+561 585 608 584 0
+-585 -561 0
+-608 -561 0
+-608 -585 0
+-584 -561 0
+-584 -585 0
+-584 -608 0
+c Exactly one constraints for square 11,22 (4 variables)
+514 538 561 537 0
+-538 -514 0
+-561 -514 0
+-561 -538 0
+-537 -514 0
+-537 -538 0
+-537 -561 0
+c Exactly one constraints for square 10,22 (4 variables)
+467 491 514 490 0
+-491 -467 0
+-514 -467 0
+-514 -491 0
+-490 -467 0
+-490 -491 0
+-490 -514 0
+c Exactly one constraints for square 9,22 (4 variables)
+420 444 467 443 0
+-444 -420 0
+-467 -420 0
+-467 -444 0
+-443 -420 0
+-443 -444 0
+-443 -467 0
+c Exactly one constraints for square 8,22 (4 variables)
+373 397 420 396 0
+-397 -373 0
+-420 -373 0
+-420 -397 0
+-396 -373 0
+-396 -397 0
+-396 -420 0
+c Exactly one constraints for square 7,22 (4 variables)
+326 350 373 349 0
+-350 -326 0
+-373 -326 0
+-373 -350 0
+-349 -326 0
+-349 -350 0
+-349 -373 0
+c Exactly one constraints for square 6,22 (4 variables)
+279 303 326 302 0
+-303 -279 0
+-326 -279 0
+-326 -303 0
+-302 -279 0
+-302 -303 0
+-302 -326 0
+c Exactly one constraints for square 5,22 (4 variables)
+232 256 279 255 0
+-256 -232 0
+-279 -232 0
+-279 -256 0
+-255 -232 0
+-255 -256 0
+-255 -279 0
+c Exactly one constraints for square 4,22 (4 variables)
+185 209 232 208 0
+-209 -185 0
+-232 -185 0
+-232 -209 0
+-208 -185 0
+-208 -209 0
+-208 -232 0
+c Exactly one constraints for square 3,22 (4 variables)
+138 162 185 161 0
+-162 -138 0
+-185 -138 0
+-185 -162 0
+-161 -138 0
+-161 -162 0
+-161 -185 0
+c Exactly one constraints for square 2,22 (4 variables)
+91 115 138 114 0
+-115 -91 0
+-138 -91 0
+-138 -115 0
+-114 -91 0
+-114 -115 0
+-114 -138 0
+c Exactly one constraints for square 1,22 (4 variables)
+44 68 91 67 0
+-68 -44 0
+-91 -44 0
+-91 -68 0
+-67 -44 0
+-67 -68 0
+-67 -91 0
+c Exactly one constraints for square 0,22 (3 variables)
+22 44 21 0
+-44 -22 0
+-21 -22 0
+-21 -44 0
+c Exactly one constraints for square 22,23 (2 variables)
+1032 1055 0
+-1055 -1032 0
+c Exactly one constraints for square 21,23 (3 variables)
+985 1032 1008 0
+-1032 -985 0
+-1008 -985 0
+-1008 -1032 0
+c Exactly one constraints for square 20,23 (3 variables)
+938 985 961 0
+-985 -938 0
+-961 -938 0
+-961 -985 0
+c Exactly one constraints for square 19,23 (3 variables)
+891 938 914 0
+-938 -891 0
+-914 -891 0
+-914 -938 0
+c Exactly one constraints for square 18,23 (3 variables)
+844 891 867 0
+-891 -844 0
+-867 -844 0
+-867 -891 0
+c Exactly one constraints for square 17,23 (3 variables)
+797 844 820 0
+-844 -797 0
+-820 -797 0
+-820 -844 0
+c Exactly one constraints for square 16,23 (3 variables)
+750 797 773 0
+-797 -750 0
+-773 -750 0
+-773 -797 0
+c Exactly one constraints for square 15,23 (3 variables)
+703 750 726 0
+-750 -703 0
+-726 -703 0
+-726 -750 0
+c Exactly one constraints for square 14,23 (3 variables)
+656 703 679 0
+-703 -656 0
+-679 -656 0
+-679 -703 0
+c Exactly one constraints for square 13,23 (3 variables)
+609 656 632 0
+-656 -609 0
+-632 -609 0
+-632 -656 0
+c Exactly one constraints for square 12,23 (3 variables)
+562 609 585 0
+-609 -562 0
+-585 -562 0
+-585 -609 0
+c Exactly one constraints for square 11,23 (3 variables)
+515 562 538 0
+-562 -515 0
+-538 -515 0
+-538 -562 0
+c Exactly one constraints for square 10,23 (3 variables)
+468 515 491 0
+-515 -468 0
+-491 -468 0
+-491 -515 0
+c Exactly one constraints for square 9,23 (3 variables)
+421 468 444 0
+-468 -421 0
+-444 -421 0
+-444 -468 0
+c Exactly one constraints for square 8,23 (3 variables)
+374 421 397 0
+-421 -374 0
+-397 -374 0
+-397 -421 0
+c Exactly one constraints for square 7,23 (3 variables)
+327 374 350 0
+-374 -327 0
+-350 -327 0
+-350 -374 0
+c Exactly one constraints for square 6,23 (3 variables)
+280 327 303 0
+-327 -280 0
+-303 -280 0
+-303 -327 0
+c Exactly one constraints for square 5,23 (3 variables)
+233 280 256 0
+-280 -233 0
+-256 -233 0
+-256 -280 0
+c Exactly one constraints for square 4,23 (3 variables)
+186 233 209 0
+-233 -186 0
+-209 -186 0
+-209 -233 0
+c Exactly one constraints for square 3,23 (3 variables)
+139 186 162 0
+-186 -139 0
+-162 -139 0
+-162 -186 0
+c Exactly one constraints for square 2,23 (3 variables)
+92 139 115 0
+-139 -92 0
+-115 -92 0
+-115 -139 0
+c Exactly one constraints for square 1,23 (3 variables)
+45 92 68 0
+-92 -45 0
+-68 -45 0
+-68 -92 0
+c Exactly one constraints for square 0,23 (2 variables)
+45 22 0
+-22 -45 0
