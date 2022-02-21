@@ -1,0 +1,36 @@
+PReLearn README
+-----------------------------------------------------------------------
+
+PReLearn is a preprocesor that learns PR clauses.
+The clauses can be added to the original formula, then solved by a 
+SAT solver.
+PReLearn additionally outputs proofs in the dpr format.
+
+PReLearn was built on top of SaDiCaL, using the inner solver to solve
+reducts but modifying the outer solver to search for PR clauses 
+exclusively.
+
+Options labelled pre_[option] are speciic to PReLearn, the remaining
+options are from SaDiCaL. Some of the SaDiCaL options are inapplicable 
+since PReLearn does not use the outer solver for SAT solving like in
+SaDiCaL.
+
+To build use
+
+  ./configure.sh && make 
+
+You can compile with debugging, checking or logging support too. See
+
+  ./configure. -h
+
+for configuration options.  By default the code is optimized and neither
+assertion checking nor logging code is included.
+
+
+Original SaDiCaL README
+-----------------------------------------------------------------------
+
+SaDiCaL is a Satisfaction Driven Clause Learning (SDCL) SAT Solver.
+Beside standard conflict clauses it also learns Set Propagation
+Redundant (SPR) clauses, by checking the (filtered) positive reduct
+of the current partial assignment to be satisfiable.

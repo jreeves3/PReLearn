@@ -1,0 +1,24 @@
+CC=@CC@
+CFLAGS=@CFLAGS@
+MAKEFLAGS=-j
+SOURCES=sadical.c options.c parser.c signals.c stats.c utils.c
+OBJECTS=$(patsubst %.c,%.o,$(SOURCES)) config.o
+HEADERS=sadical.h internal.h extract.h
+all: sadical
+%.o: %.c
+	$(CC) $(CFLAGS) -c $<
+-include dependencies
+dependencies: config.c
+	$(CC) $(CFLAGS) -MM *.c|sed -e 's,:,: makefile,' >$@
+sadical: app.o libsadical.a
+	$(CC) $(CFLAGS) -o $@ app.o -L. -lsadical
+libsadical.a: $(OBJECTS)
+	ar rc $@ $(OBJECTS)
+config.c: $(SOURCES) app.c $(HEADERS) makefile VERSION mkconfig.sh
+	./mkconfig.sh > $@
+clean:
+	rm -f sadical *.a *.o dependencies config.c makefile
+	make -C tests clean
+test: all
+	./tests/run.sh
+.PHONY: all always clean test
