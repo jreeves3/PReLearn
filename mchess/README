@@ -29,7 +29,7 @@ built-in for loop assigning [$clos].
 
 output:
 
-  mchess.dpr - complete dpr proof
+  chess.dpr - complete dpr proof
   chess.cnf  - original formula with cumulative learned units appended 
                (pcnf header not updated)
   all PReLearn output files for last iteration
