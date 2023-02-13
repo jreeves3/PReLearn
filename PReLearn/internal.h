@@ -36,6 +36,7 @@ OPTION(pre_both_phases,bool,true,0,1,"use both phases for initial variable of pr
 OPTION(pre_length_end,int,3,0,INT_MAX,"find PR clauses up to this length") \
 OPTION(pre_length_init,int,2,0,INT_MAX,"start finding PR clauses at this length") \
 OPTION(pre_iterations,int,1,1,INT_MAX,"number of iterations extracting pr clauses") \
+OPTION(pre_neighbors_count,bool,false,0,1,"use neighbor occurence count for candidate test order") \
 OPTION(pre_neighbors_depth,int,0,0,INT_MAX,"number of iterations for expanding neighbor vars") \
 OPTION(pre_reduced,bool,false,0,1,"expansion on reduced but not satisfied clauses") \
 OPTION(pre_seed,int,1,1,INT_MAX,"random number generator seed") \
@@ -401,6 +402,8 @@ struct Solver {			// Extends until "END of 'struct Solver'".
 
   STACK (int) units;
   STACK (int) * touched_list;
+  STACK (int) vars_in_formula;
+  
   FILE * pr_clause_out;
   FILE * pr_clause_full_out;
   FILE * pr_units;

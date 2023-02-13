@@ -1897,14 +1897,122 @@ int * prext_get_reduced
   return touched;
 }
 
-// Returns either reduced or neighbors (i)
+int * neighbors_cnt;
+
+int neighbor_cmp (const void *a, const void *b) {
+  int * first = (int *) a;
+  int * secon = (int *) b;
+  
+  if (neighbors_cnt[abs(*first)] < neighbors_cnt[abs(*secon)]) return 1;
+  else if (neighbors_cnt[abs(*first)] > neighbors_cnt[abs(*secon)]) return -1;
+  else return 0;
+}
+
+// touched (i) giving variables touched but counting how often they are touched by the trail
+// +1 for every literal on the trail touching it
+
+// would like a hashmap implmentation (lit, count)
+// will settle for vector with variable map using a timestamp?
+// Array (lit, timestamp), Map (lit, mapID), vector (mapID, Cnt)
+int * prext_get_neighbors_count
+(Solver * solver, Partial_PR * part_pr, int * ntouched) {
+  SaDiCaL * sadical = solver->sadical;
+  double start = sadical_process_time ();
+  
+  int depth_i = sadical->opts.pre_neighbors_depth;
+  int lit, tch;
+  *ntouched = 0;
+  STACK (int) touched_ls;
+  INIT (touched_ls);
+  int * touched = 0;
+  long time = solver->find_time;
+  
+  for (int t = 0; t < SIZE (solver->trail); t++) { // touched from trail
+    lit = PEEK (solver->trail, t);
+    for (int i = 0; i < SIZE (solver->touched_list[abs(lit)]); i++) {
+      tch = PEEK (solver->touched_list[abs(lit)], i);
+      if (solver->find_vars[abs(tch)] != time) {
+        PUSH (touched_ls, abs(tch));
+        (*ntouched)++;
+        solver->find_vars[abs(tch)] = time;
+      }
+      neighbors_cnt[abs(tch)] += 1;
+    }
+  }
+  
+  for (int s = 0; s < depth_i; s++) { // expand touched depth_i times
+    int orig_size = SIZE (touched_ls);
+    for (int t = 0; t < orig_size ; t++) {
+      lit = PEEK (touched_ls, t);
+      for (int i = 0; i < SIZE (solver->touched_list[abs(lit)]); i++) {
+        tch = PEEK (solver->touched_list[abs(lit)], i);
+        if (solver->find_vars[abs(tch)] != time) {
+          PUSH (touched_ls, abs(tch));
+          (*ntouched)++;
+          solver->find_vars[abs(tch)] = time;
+        }
+        neighbors_cnt[abs(tch)] += 1;
+      }
+    }
+  }
+  
+  if (*ntouched) { // store variables in touched[]
+    touched = malloc (sizeof (int) * (*ntouched));
+    for (int j = 0; j < SIZE (touched_ls); j++) {
+      touched[j] = PEEK (touched_ls, j);
+    }
+  }
+  
+  // sort touched based on solver list
+  qsort (touched, *ntouched, sizeof (int), neighbor_cmp);
+  
+  // cutoff some from touched if you so choose
+  int cutoff_cnt = 0, cutoff_pos = 0;
+  
+  for (int j = 0; j < SIZE (touched_ls); j++) {
+    if (neighbors_cnt[touched[j]] < cutoff_cnt) break;
+    cutoff_pos++;
+  }
+  
+//  cutoff_pos = 2;
+  
+  if (cutoff_pos < *ntouched) {
+    *ntouched = cutoff_pos;
+    if (*ntouched == 0) free (touched);
+  }
+  
+  // reset counts
+  for (int j = 0; j < SIZE (touched_ls); j++) {
+    neighbors_cnt[PEEK (touched_ls, j)] = 0;
+  }
+
+  RELEASE (touched_ls);
+  sadical->time.exploring += sadical_process_time () - start;
+  solver->find_time++;
+  
+  return touched;
+}
+
+// Returns a ser of literals for generating candidate PR clauses
+// Returns either reduced, neighbors by count, or neighbors (i)
 int * prext_find
 (Solver * solver, Partial_PR * part_pr, int * ntouched) {
   SaDiCaL * sadical = solver->sadical;
+  int *touched;
+  
   if (sadical->opts.pre_reduced)
-    return prext_get_reduced (solver, part_pr, ntouched);
+    touched = prext_get_reduced (solver, part_pr, ntouched);
+  else if (sadical->opts.pre_neighbors_count)
+    touched = prext_get_neighbors_count (solver, part_pr, ntouched);
   else
-    return prext_get_neighbors (solver, part_pr, ntouched);
+    touched = prext_get_neighbors (solver, part_pr, ntouched);
+  
+  if (!sadical->opts.pre_neighbors_count && ntouched) {
+    // standard order under shuffled clauses
+    qsort (touched, *ntouched, sizeof (int), cmpfunc);
+  }
+  
+  return touched;
 }
 
 
@@ -1965,9 +2073,6 @@ Candidate_Queue * prext_find_candidates
       MSG (3, "ntouched %d", ntouched);
       
       if (ntouched) { // touched variables that may be added to pr candidate
-        
-        // standard order under shuffled clauses
-        qsort (touched, ntouched, sizeof (int), cmpfunc);
         
         for (int t = 0; t < ntouched; t++) {
           if (candidate_queue->seen[abs(touched[t])] == -1) { // add to forntier
@@ -2255,7 +2360,7 @@ void prext_learn_prs(Solver * solver, Candidate_Queue * candidate_queue) {
       j = rand() % (i+1);
       temp = add_order[j];
       add_order[j] = add_order[i];
-      add_order[i] = j;
+      add_order[i] = temp; // bug fix
     }}
     
     for (int p = 0; p < cand_cnt; p++) {
@@ -2285,14 +2390,14 @@ void prext_learn_prs(Solver * solver, Candidate_Queue * candidate_queue) {
 // Return the first unassigned variable
 int pr_get_starting_var (Solver * solver) {
   for (int i = 1; i < solver->max_var+1; i++) {
-    if (!val (solver, i)) return i;
+    if (!val (solver, i) && (PEEK (solver->vars_in_formula , i))) return i;
   }
   return 0;
 }
 // Return the first unassigned variable that has not been seen
 int pr_get_next (Solver * solver, Candidate_Queue * candidate_queue) {
   for (int i = 1; i < solver->max_var+1; i++) {
-    if (candidate_queue->seen[i] < 1 && !val (solver, i)) return i;
+    if (candidate_queue->seen[i] < 1 && !val (solver, i)  && (PEEK (solver->vars_in_formula , i))) return i;
   }
   return 0;
 }
@@ -2303,10 +2408,41 @@ void prext_start (Solver * solver, Candidate_Queue * candidate_queue, int starti
   candidate_queue->frontier_count = 1;
 }
 
-// Initializes data structures including touched lists
-// Iterates over variables in formula, calling find and learn functions
-void pr_extract (Solver * solver) {
+
+// add to touched lists clauses start:last_clause
+// could order touched lists for faster insertion. Or make Btree...
+void add_clauses_to_touched_lists (Solver * solver, int start) {
   SaDiCaL * sadical = solver->sadical;
+  Clause * cls;
+  int allin;
+  int last_clause = SIZE (solver->clauses);
+
+  for (int c = start; c < last_clause; c++) {
+    cls = PEEK (solver->clauses, c); // add lits <- cls to each variables touched list
+    for (int v = 0; v < cls->size; v++) {
+      for (int t = 0; t < cls->size; t++) {
+        if (v == t) continue;
+        allin = 0;
+        for (int s = 0; s < SIZE (solver->touched_list[abs(cls->literals[v])]); s++) {
+          if (cls->literals[t] == PEEK (solver->touched_list[abs(cls->literals[v])], s)) {
+            allin = 1;
+            break;
+          }
+        }
+        if (!allin) PUSH (solver->touched_list[abs(cls->literals[v])], cls->literals[t]);
+      }
+    }
+  }
+  MSG (1, "Computed touched lists");
+}
+
+
+// initialize output files, data structures, and propagate top level units
+void pr_init (Solver * solver) {
+  SaDiCaL * sadical = solver->sadical;
+
+  MSG (1, "Initializing PR EXTRACT");
+
   solver->pr_clause_out = fopen("pr_clauses.cnf", "w");
   solver->pr_clause_full_out = fopen("pr_clauses_full.dpr", "w");
   solver->pr_units = fopen("pr_units.cnf", "w");
@@ -2314,43 +2450,35 @@ void pr_extract (Solver * solver) {
   solver->top_level_conflict = false;
   solver->find_time = 1;
   solver->find_vars = malloc (sizeof (long) * (solver->max_var+1));
-  for (int i = 0; i < solver->max_var+1; i++) solver->find_vars[i] = 0;
-  int starting_var;
-  int cutoff = sadical->opts.pre_length_init;
-  Candidate_Queue * candidate_queue, *found_queue, * cumulative_found_queue;
+  neighbors_cnt = malloc (sizeof (long) * (solver->max_var+1));
+  for (int i = 0; i < solver->max_var+1; i++) {solver->find_vars[i] = neighbors_cnt[i] = 0;}
   INIT (solver->units);
   
-  MSG (1, "Entering PR EXTRACT");
-  Clause * cls;
-  int allin;
   // touched lists (can be more efficient)
   if (!sadical->opts.pre_reduced) {
     solver->touched_list = malloc (sizeof (Ints) * (solver->max_var+1));
     for (int i = 0; i < solver->max_var+1; i++) INIT (solver->touched_list[i]);
-    for (int c = 0; c < SIZE (solver->clauses); c++) {
-      cls = PEEK (solver->clauses, c);
-      for (int v = 0; v < cls->size; v++) {
-        for (int t = 0; t < cls->size; t++) {
-          if (v == t) continue;
-          allin = 0;
-          for (int s = 0; s < SIZE (solver->touched_list[abs(cls->literals[v])]); s++) {
-            if (cls->literals[t] == PEEK (solver->touched_list[abs(cls->literals[v])], s)) {
-              allin = 1;
-              break;
-            }
-          }
-          if (!allin) PUSH (solver->touched_list[abs(cls->literals[v])], cls->literals[t]);
-        }
-      }
-    }
-    MSG (1, "Computed touched lists");
+    add_clauses_to_touched_lists (solver, 0);
   }
-  
+
   propagate (solver); // propagate and simplify all units (necessary for pruning)
   if (simplifying (solver)) simplify (solver);
   
+}
+
+// Initializes data structures including touched lists
+// Iterates over variables in formula, calling find and learn functions
+void pr_extract (Solver * solver) {
+  SaDiCaL * sadical = solver->sadical;
+  
+  int starting_var;
+  int cutoff = sadical->opts.pre_length_init;
+  Candidate_Queue * candidate_queue, *found_queue, * cumulative_found_queue;
+
+  pr_init (solver);
+  
   for (int sweeps = 0; sweeps < sadical->opts.pre_iterations; sweeps++) {
-    cutoff = sadical->opts.pre_length_init; // initial cutoff
+    cutoff = sadical->opts.pre_length_init;         // initial cutoff
     while (cutoff < sadical->opts.pre_length_end) { // iterate through PR sizes
       MSG (1, "Beggining outer loop for cutoff %d", cutoff);
       candidate_queue = new_candidate_queue (solver, solver->max_var+1, cutoff);
@@ -2425,12 +2553,20 @@ void pr_extract (Solver * solver) {
     }
     printf("c Iteration %d\n", sweeps);
     
-    if (!solver->new_pr) break; // saturation: no new clauses learned in the iteration
+    if (!solver->new_pr) break; // saturation: no new PR clauses learned in this iteration
+    
+    
+    // new modification
+//    if (!sadical->opts.pre_reduced) { // update touched list after learning new PR clauses
+//      add_clauses_to_touched_lists (solver, SIZE (solver->clauses) - solver->new_pr);
+//    }
+
     solver->new_pr = 0;
     sadical_pr_stats (sadical) ;
+
   }
   
-  // add all propagates units not yet added
+  // add all propagated units not yet added
   for (int i = 0; i < SIZE (solver->trail); i++) {
     bool allin = false;
     for (int l = 0; l < SIZE (solver->units); l++) {
@@ -2628,6 +2764,15 @@ static void add_literal (Solver * solver, int lit) {
   assert (!solver->level);
   SaDiCaL * sadical = solver->sadical;
   import_literal (solver, lit);
+  
+  if (lit) {
+    int varIDX = abs (lit);
+    if (SIZE (solver->vars_in_formula) <= varIDX) {
+      for (int i = SIZE (solver->vars_in_formula); i <= varIDX; i++) PUSH (solver->vars_in_formula, 0);
+    }
+    POKE (solver->vars_in_formula, varIDX, 1);
+  }
+  
   if (lit) PUSH (solver->original, lit);
   else {
     int original_size = SIZE (solver->original);
