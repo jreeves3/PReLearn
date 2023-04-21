@@ -14,6 +14,10 @@ solver such as Kissat.
 This respository contains evaluation results for the mutilated chessboard 
 problem and some SAT competition benchmarks.
 
+Results using preprocessing and variable permutation for the JAR 23
+submission are also available, with a Python script for extracting 
+tables and figures.
+
 To build use
 
   cd PReLearn
