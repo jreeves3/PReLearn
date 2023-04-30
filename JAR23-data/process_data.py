@@ -25,6 +25,7 @@ def process_data():
   
           
   original_solve = {'lt10':{} , '10-50':{}}
+#  old_solve = {'lt10':{} , '10-50':{}}
   pr_solve = {'lt10':{} , '10-50':{}}
   for bench_set in ["lt10", "10-50"] :
     with open(bench_set+".csv", mode='r') as csvFile:
@@ -32,9 +33,18 @@ def process_data():
         for line in csvReader:
           temp_b = line["bench"]
           pr_solve[bench_set][temp_b] = line
+#          old_solve[bench_set][temp_b] = {}
+#          old_solve[bench_set][temp_b]["solve time"] = line["default-kissat-time"]
+#          old_solve[bench_set][temp_b]["result"] = line["default-kissat-result"]
+
+  for bench_set in ["lt10", "10-50"] :
+    with open(bench_set+"-kissat-prooflogging.csv", mode='r') as csvFile:
+        csvReader = csv.DictReader(csvFile)
+        for line in csvReader:
+          temp_b = line["Name"]
           original_solve[bench_set][temp_b] = {}
-          original_solve[bench_set][temp_b]["solve time"] = line["default-kissat-time"]
-          original_solve[bench_set][temp_b]["result"] = line["default-kissat-result"]
+          original_solve[bench_set][temp_b]["solve time"] = line["\ufeffsolve time"]
+          original_solve[bench_set][temp_b]["result"] = line["Result"]
         
   inproc_data = {}
   with open("inprocessing.csv", mode='r') as csvFile:
@@ -55,6 +65,7 @@ def process_data():
   
   lt10_benches =pr_solve['lt10'].keys()
   gt10_benches =pr_solve['10-50'].keys()
+  
   
   tables = True
   if tables:
@@ -125,8 +136,7 @@ def process_data():
         if i == 0: type = "SAT"
         else : type = "UNSAT"
         print("{} {} {} {} {} {} {} {} ".format(bench_set, type, TotalWithPR[i],TotalWithoutPR[i],ExclWithPR[i],ExclWithoutPR[i],Improved[i],Worsened[i]))
-      
-      
+
   colors = ["blue","redpurple","midgreen","mildgray","clearyellow","darkestblue", "browngreen","redpurple","black","darkred", "midgreen", "midgreen"]
   marks = ["diamond","","triangle", "square","square"]
   figure7 = True
@@ -157,7 +167,7 @@ def process_data():
         prTime = float(d["pr-time"])
         truth_value = res
         if truth_value == -1: continue
-        if solveTime < 1:
+        if solveTime < 1: # so these are displayed in the log plot
           solveTime = 1
         if origTime < 1 : origTime = 1
         plot = "\\addplot[color="+colors[truth_value]+",mark="+marks[truth_value]+"*] coordinates { "
@@ -169,7 +179,6 @@ def process_data():
         print(plot)
     
 
-  
   figure8 = True
   if figure8:
     '''
@@ -263,7 +272,7 @@ def process_data():
       truth_value = res
       solvePR = int(p["satisfied"])
       origPR = int(d["satisfied"])
-      if solvePR < 1 : solvePR = 0.9
+      if solvePR < 1 : solvePR = 0.9 # so these are displayed in the log plot
       if origPR < 1 : origPR = 0.9
       if solvePR >= 1 or origPR >= 1:
         if p['inproc-solved'] != 'True' :
@@ -279,7 +288,7 @@ def process_data():
         solveTime = float(p['inproc-time'])
       origTime = float(d["total-time"])
       if truth_value == -1: continue
-      if solveTime < 1:
+      if solveTime < 1: # so these are displayed in the log plot
         solveTime = 1
       if origTime < 1 : origTime = 1
       plot = "\\addplot[color="+colors[truth_value]+",mark="+marks[truth_value]+"*] coordinates { "
@@ -315,7 +324,7 @@ def process_data():
       truth_value = res
       solvePR = int(p["satisfied"])
       origPR = int(d["satisfied"])
-      if solvePR < 1 : solvePR = 0.9
+      if solvePR < 1 : solvePR = 0.9 # so these are displayed in the log plot
       if origPR < 1 : origPR = 0.9
       if solvePR >= 1 or origPR >= 1:
         plot = "\\addplot[color="+colors[truth_value]+",mark="+marks[truth_value]+"*] coordinates { "
@@ -327,7 +336,7 @@ def process_data():
       solveTime = float(p["total-time"])
       origTime = float(d["total-time"])
       if truth_value == -1: continue
-      if solveTime < 1:
+      if solveTime < 1: # so these are displayed in the log plot
         solveTime = 1
       if origTime < 1 : origTime = 1
       plot = "\\addplot[color="+colors[truth_value]+",mark="+marks[truth_value]+"*] coordinates { "
